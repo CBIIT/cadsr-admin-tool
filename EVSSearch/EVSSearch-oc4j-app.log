@@ -1,0 +1,1804 @@
+05/06/02 12:47:38 Started
+05/06/02 12:47:40 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:47:40 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:47:40 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/02 12:47:40 EVSSearch-ViewController-webapp: Servlet error
+javax.servlet.jsp.JspException: Missing message for key "EVSSearch.Dictionay"
+	at org.apache.struts.taglib.bean.MessageTag.doStartTag(MessageTag.java:297)
+	at _EVSSearch._jspService(EVSSearch.jsp:12)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:186)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/02 12:48:07 Started
+05/06/02 12:48:08 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:48:08 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:48:08 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/02 12:49:10 Started
+05/06/02 12:49:11 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:49:11 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:49:11 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/02 12:51:46 Started
+05/06/02 12:51:47 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:51:47 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:51:48 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/02 12:52:29 Started
+05/06/02 12:52:30 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:52:30 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:52:31 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/02 12:53:39 Started
+05/06/02 12:53:40 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:53:40 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:53:40 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/02 12:57:36 Started
+05/06/02 12:57:37 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:57:37 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:57:37 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/02 12:57:38 EVSSearch-ViewController-webapp: Servlet error
+javax.servlet.jsp.JspException: Missing message for key "EVSSearch.Code"
+	at org.apache.struts.taglib.bean.MessageTag.doStartTag(MessageTag.java:297)
+	at _EVSSearch._jspService(EVSSearch.jsp:28)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/02 12:58:36 Started
+05/06/02 12:58:37 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/02 12:58:37 EVSSearch-ViewController-webapp: action: init
+05/06/02 12:58:37 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 09:47:05 Started
+05/06/07 09:47:06 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 09:47:06 EVSSearch-ViewController-webapp: action: init
+05/06/07 09:47:07 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 09:50:51 Started
+05/06/07 09:50:52 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 09:50:52 EVSSearch-ViewController-webapp: action: init
+05/06/07 09:50:52 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 12:47:34 Started
+05/06/07 12:47:35 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 12:47:35 EVSSearch-ViewController-webapp: action: init
+05/06/07 12:47:36 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 12:53:37 Started
+05/06/07 12:53:38 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 12:53:38 EVSSearch-ViewController-webapp: action: init
+05/06/07 12:53:39 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 12:54:52 Started
+05/06/07 12:54:53 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 12:54:53 EVSSearch-ViewController-webapp: action: init
+05/06/07 12:54:53 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 12:55:34 Started
+05/06/07 12:55:35 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 12:55:35 EVSSearch-ViewController-webapp: action: init
+05/06/07 12:55:35 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 12:56:11 Started
+05/06/07 12:56:12 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 12:56:12 EVSSearch-ViewController-webapp: action: init
+05/06/07 12:56:12 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 12:58:42 Started
+05/06/07 12:58:43 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 12:58:43 EVSSearch-ViewController-webapp: action: init
+05/06/07 12:58:43 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 14:49:35 Started
+05/06/07 14:49:36 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 14:49:36 EVSSearch-ViewController-webapp: action: init
+05/06/07 14:49:36 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 14:50:51 Started
+05/06/07 14:50:51 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 14:50:52 EVSSearch-ViewController-webapp: action: init
+05/06/07 14:50:52 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 14:50:57 EVSSearch-ViewController-webapp: com.evermind.server.http.NotFoundServlet: init
+05/06/07 14:52:44 Started
+05/06/07 14:52:45 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 14:52:45 EVSSearch-ViewController-webapp: action: init
+05/06/07 14:52:45 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 14:53:40 Started
+05/06/07 14:53:41 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 14:53:41 EVSSearch-ViewController-webapp: action: init
+05/06/07 14:53:42 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/07 14:53:51 Started
+05/06/07 14:53:52 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/07 14:53:52 EVSSearch-ViewController-webapp: action: init
+05/06/07 14:53:52 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/08 12:52:59 Started
+05/06/08 12:53:01 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/08 12:53:01 EVSSearch-ViewController-webapp: action: init
+05/06/08 12:53:02 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/08 12:53:06 EVSSearch-ViewController-webapp: com.evermind.server.http.NotFoundServlet: init
+05/06/08 12:53:39 Started
+05/06/08 12:53:40 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/08 12:53:40 EVSSearch-ViewController-webapp: action: init
+05/06/08 12:53:41 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/08 12:55:08 Started
+05/06/08 12:55:09 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/08 12:55:09 EVSSearch-ViewController-webapp: action: init
+05/06/08 12:55:09 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/08 12:57:52 Started
+05/06/08 12:57:53 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/08 12:57:53 EVSSearch-ViewController-webapp: action: init
+05/06/08 12:57:53 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/08 13:01:02 Started
+05/06/08 13:01:03 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/08 13:01:03 EVSSearch-ViewController-webapp: action: init
+05/06/08 13:01:03 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/08 13:02:42 Started
+05/06/08 13:02:43 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/08 13:02:43 EVSSearch-ViewController-webapp: action: init
+05/06/08 13:02:43 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/09 09:07:00 Started
+05/06/09 09:07:02 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/09 09:07:02 EVSSearch-ViewController-webapp: action: init
+05/06/09 09:07:02 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/09 09:07:07 EVSSearch-ViewController-webapp: com.evermind.server.http.NotFoundServlet: init
+05/06/09 09:07:33 Started
+05/06/09 09:07:34 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/09 09:07:34 EVSSearch-ViewController-webapp: action: init
+05/06/09 09:07:35 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/09 09:07:56 Started
+05/06/09 09:07:57 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/09 09:07:57 EVSSearch-ViewController-webapp: action: init
+05/06/09 09:07:57 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/09 09:08:23 EVSSearch-ViewController-webapp: com.evermind.server.http.NotFoundServlet: init
+05/06/09 09:09:00 Started
+05/06/09 09:09:01 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/09 09:09:01 EVSSearch-ViewController-webapp: action: init
+05/06/09 09:09:01 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/09 09:13:14 Started
+05/06/09 09:13:15 EVSSearch-ViewController-webapp: JDevOJSP: init
+05/06/09 09:13:15 EVSSearch-ViewController-webapp: action: init
+05/06/09 09:13:15 EVSSearch-ViewController-webapp: 9.0.4.0.0 Started
+05/06/09 09:14:44 Started
+05/06/09 09:14:45 evssearch: JDevOJSP: init
+05/06/09 09:14:45 evssearch: action: init
+05/06/09 09:14:45 evssearch: 9.0.4.0.0 Started
+05/06/09 09:15:17 Started
+05/06/09 09:15:18 evssearch: JDevOJSP: init
+05/06/09 09:15:18 evssearch: action: init
+05/06/09 09:15:19 evssearch: 9.0.4.0.0 Started
+05/06/09 09:17:12 Started
+05/06/09 09:17:13 evssearch: JDevOJSP: init
+05/06/09 09:17:13 evssearch: action: init
+05/06/09 09:17:13 evssearch: 9.0.4.0.0 Started
+05/06/09 09:17:22 Started
+05/06/09 09:17:24 evssearch: JDevOJSP: init
+05/06/09 09:17:24 evssearch: action: init
+05/06/09 09:17:24 evssearch: 9.0.4.0.0 Started
+05/06/09 09:23:35 Started
+05/06/09 09:23:36 evssearch: JDevOJSP: init
+05/06/09 09:23:36 evssearch: action: init
+05/06/09 09:23:37 evssearch: 9.0.4.0.0 Started
+05/06/09 09:30:51 Started
+05/06/09 09:30:52 evssearch: JDevOJSP: init
+05/06/09 09:30:52 evssearch: action: init
+05/06/09 09:30:53 evssearch: 9.0.4.0.0 Started
+05/06/09 09:30:58 Started
+05/06/09 09:30:59 evssearch: JDevOJSP: init
+05/06/09 09:30:59 evssearch: action: init
+05/06/09 09:30:59 evssearch: 9.0.4.0.0 Started
+05/06/09 09:32:10 Started
+05/06/09 09:32:11 evssearch: JDevOJSP: init
+05/06/09 09:32:11 evssearch: action: init
+05/06/09 09:32:11 evssearch: 9.0.4.0.0 Started
+05/06/09 09:32:33 Started
+05/06/09 09:32:34 evssearch: JDevOJSP: init
+05/06/09 09:32:34 evssearch: action: init
+05/06/09 09:32:35 evssearch: 9.0.4.0.0 Started
+05/06/09 09:35:21 Started
+05/06/09 09:35:22 evssearch: JDevOJSP: init
+05/06/09 09:35:22 evssearch: action: init
+05/06/09 09:35:23 evssearch: 9.0.4.0.0 Started
+05/06/09 09:35:55 Started
+05/06/09 09:35:56 evssearch: JDevOJSP: init
+05/06/09 09:35:56 evssearch: action: init
+05/06/09 09:35:57 evssearch: 9.0.4.0.0 Started
+05/06/09 09:37:08 Started
+05/06/09 09:37:09 evssearch: JDevOJSP: init
+05/06/09 09:37:09 evssearch: action: init
+05/06/09 09:37:09 evssearch: 9.0.4.0.0 Started
+05/06/09 09:37:16 Started
+05/06/09 09:37:17 evssearch: JDevOJSP: init
+05/06/09 09:37:17 evssearch: action: init
+05/06/09 09:37:17 evssearch: 9.0.4.0.0 Started
+05/06/09 10:00:30 Started
+05/06/09 10:00:31 evssearch: JDevOJSP: init
+05/06/09 10:00:31 evssearch: action: init
+05/06/09 10:00:32 evssearch: 9.0.4.0.0 Started
+05/06/09 10:05:02 Started
+05/06/09 10:05:03 evssearch: JDevOJSP: init
+05/06/09 10:05:03 evssearch: action: init
+05/06/09 10:05:03 evssearch: 9.0.4.0.0 Started
+05/06/09 10:19:34 Started
+05/06/09 10:19:35 evssearch: JDevOJSP: init
+05/06/09 10:19:35 evssearch: action: init
+05/06/09 10:19:35 evssearch: 9.0.4.0.0 Started
+05/06/09 10:36:54 Started
+05/06/09 10:36:55 evssearch: JDevOJSP: init
+05/06/09 10:36:55 evssearch: action: init
+05/06/09 10:36:55 evssearch: 9.0.4.0.0 Started
+05/06/09 10:38:53 Started
+05/06/09 10:38:54 evssearch: JDevOJSP: init
+05/06/09 10:38:54 evssearch: action: init
+05/06/09 10:38:54 evssearch: 9.0.4.0.0 Started
+05/06/09 10:40:10 Started
+05/06/09 10:40:11 evssearch: JDevOJSP: init
+05/06/09 10:40:11 evssearch: action: init
+05/06/09 10:40:11 evssearch: 9.0.4.0.0 Started
+05/06/09 10:42:16 Started
+05/06/09 10:42:16 evssearch: JDevOJSP: init
+05/06/09 10:42:16 evssearch: action: init
+05/06/09 10:42:17 evssearch: 9.0.4.0.0 Started
+05/06/09 10:43:10 Started
+05/06/09 10:43:11 evssearch: JDevOJSP: init
+05/06/09 10:43:11 evssearch: action: init
+05/06/09 10:43:11 evssearch: 9.0.4.0.0 Started
+05/06/09 10:45:06 Started
+05/06/09 10:45:07 evssearch: JDevOJSP: init
+05/06/09 10:45:07 evssearch: action: init
+05/06/09 10:45:08 evssearch: 9.0.4.0.0 Started
+05/06/16 22:30:10 Started
+05/06/16 22:30:12 evssearch: JDevOJSP: init
+05/06/16 22:30:12 evssearch: action: init
+05/06/16 22:30:12 evssearch: 9.0.4.0.0 Started
+05/06/20 16:06:01 Started
+05/06/20 16:06:03 evssearch: JDevOJSP: init
+05/06/20 16:06:03 evssearch: action: init
+05/06/20 16:06:03 evssearch: 9.0.4.0.0 Started
+05/06/20 16:06:47 Started
+05/06/20 16:06:48 evssearch: JDevOJSP: init
+05/06/20 16:06:48 evssearch: action: init
+05/06/20 16:06:48 evssearch: 9.0.4.0.0 Started
+05/06/21 09:38:52 Started
+05/06/21 09:38:53 evssearch: JDevOJSP: init
+05/06/21 09:38:53 evssearch: action: init
+05/06/21 09:38:54 evssearch: 9.0.4.0.0 Started
+05/06/21 09:38:54 evssearch: Servlet error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.RangeCheck(ArrayList.java)
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at _EVSSearch._jspService(EVSSearch.jsp:64)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:186)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 09:40:38 Started
+05/06/21 09:40:39 evssearch: JDevOJSP: init
+05/06/21 09:40:39 evssearch: action: init
+05/06/21 09:40:39 evssearch: 9.0.4.0.0 Started
+05/06/21 09:42:52 Started
+05/06/21 09:42:53 evssearch: JDevOJSP: init
+05/06/21 09:42:53 evssearch: action: init
+05/06/21 09:42:53 evssearch: 9.0.4.0.0 Started
+05/06/21 09:49:26 Started
+05/06/21 09:49:28 evssearch: JDevOJSP: init
+05/06/21 09:49:28 evssearch: action: init
+05/06/21 09:49:29 evssearch: 9.0.4.0.0 Started
+05/06/21 09:50:07 Started
+05/06/21 09:50:08 evssearch: JDevOJSP: init
+05/06/21 09:50:08 evssearch: action: init
+05/06/21 09:50:09 evssearch: 9.0.4.0.0 Started
+05/06/21 09:51:49 Started
+05/06/21 09:51:51 evssearch: JDevOJSP: init
+05/06/21 09:51:51 evssearch: action: init
+05/06/21 09:51:51 evssearch: 9.0.4.0.0 Started
+05/06/21 09:52:15 Started
+05/06/21 09:52:16 evssearch: JDevOJSP: init
+05/06/21 09:52:16 evssearch: action: init
+05/06/21 09:52:16 evssearch: 9.0.4.0.0 Started
+05/06/21 09:54:10 Started
+05/06/21 09:54:11 evssearch: JDevOJSP: init
+05/06/21 09:54:11 evssearch: action: init
+05/06/21 09:54:12 evssearch: 9.0.4.0.0 Started
+05/06/21 09:55:58 Started
+05/06/21 09:55:59 evssearch: JDevOJSP: init
+05/06/21 09:55:59 evssearch: action: init
+05/06/21 09:55:59 evssearch: 9.0.4.0.0 Started
+05/06/21 10:02:07 Started
+05/06/21 10:02:08 evssearch: JDevOJSP: init
+05/06/21 10:02:08 evssearch: action: init
+05/06/21 10:02:09 evssearch: 9.0.4.0.0 Started
+05/06/21 10:03:51 Started
+05/06/21 10:03:52 evssearch: JDevOJSP: init
+05/06/21 10:03:52 evssearch: action: init
+05/06/21 10:03:52 evssearch: 9.0.4.0.0 Started
+05/06/21 10:07:08 Started
+05/06/21 10:07:10 evssearch: JDevOJSP: init
+05/06/21 10:07:10 evssearch: action: init
+05/06/21 10:07:10 evssearch: 9.0.4.0.0 Started
+05/06/21 10:10:23 Started
+05/06/21 10:10:24 evssearch: JDevOJSP: init
+05/06/21 10:10:24 evssearch: action: init
+05/06/21 10:10:24 evssearch: 9.0.4.0.0 Started
+05/06/21 10:32:50 Started
+05/06/21 10:32:51 evssearch: JDevOJSP: init
+05/06/21 10:32:51 evssearch: action: init
+05/06/21 10:32:51 evssearch: Error preloading servlet
+javax.servlet.UnavailableException: Parsing error processing resource path 
+	at org.apache.struts.action.ActionServlet.handleConfigException(ActionServlet.java:1035)
+	at org.apache.struts.action.ActionServlet.parseModuleConfigFile(ActionServlet.java:1014)
+	at org.apache.struts.action.ActionServlet.initModuleConfig(ActionServlet.java:955)
+	at org.apache.struts.action.ActionServlet.init(ActionServlet.java:470)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:259)
+	at com.evermind.server.http.HttpApplication.loadServlet(HttpApplication.java:2094)
+	at com.evermind.server.http.HttpApplication.findServlet(HttpApplication.java:4523)
+	at com.evermind.server.http.HttpApplication.initPreloadServlets(HttpApplication.java:4617)
+	at com.evermind.server.http.HttpApplication.initDynamic(HttpApplication.java:765)
+	at com.evermind.server.http.HttpApplication.<init>(HttpApplication.java:497)
+	at com.evermind.server.Application.getHttpApplication(Application.java:886)
+	at com.evermind.server.http.HttpServer.getHttpApplication(HttpServer.java:688)
+	at com.evermind.server.http.HttpSite.getApplication(HttpSite.java:420)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:422)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:32:51 evssearch: 9.0.4.0.0 Started
+05/06/21 10:32:51 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find message resources under key org.apache.struts.action.MESSAGE
+	at org.apache.struts.util.RequestUtils.retrieveMessageResources(RequestUtils.java:1103)
+	at org.apache.struts.util.RequestUtils.message(RequestUtils.java:1043)
+	at org.apache.struts.taglib.bean.MessageTag.doStartTag(MessageTag.java:294)
+	at _EVSSearch._jspService(EVSSearch.jsp:24)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:33:56 Started
+05/06/21 10:33:57 evssearch: JDevOJSP: init
+05/06/21 10:33:58 evssearch: action: init
+05/06/21 10:33:58 evssearch: Error preloading servlet
+javax.servlet.UnavailableException: Parsing error processing resource path 
+	at org.apache.struts.action.ActionServlet.handleConfigException(ActionServlet.java:1035)
+	at org.apache.struts.action.ActionServlet.parseModuleConfigFile(ActionServlet.java:1014)
+	at org.apache.struts.action.ActionServlet.initModuleConfig(ActionServlet.java:955)
+	at org.apache.struts.action.ActionServlet.init(ActionServlet.java:470)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:259)
+	at com.evermind.server.http.HttpApplication.loadServlet(HttpApplication.java:2094)
+	at com.evermind.server.http.HttpApplication.findServlet(HttpApplication.java:4523)
+	at com.evermind.server.http.HttpApplication.initPreloadServlets(HttpApplication.java:4617)
+	at com.evermind.server.http.HttpApplication.initDynamic(HttpApplication.java:765)
+	at com.evermind.server.http.HttpApplication.<init>(HttpApplication.java:497)
+	at com.evermind.server.Application.getHttpApplication(Application.java:886)
+	at com.evermind.server.http.HttpServer.getHttpApplication(HttpServer.java:688)
+	at com.evermind.server.http.HttpSite.getApplication(HttpSite.java:420)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:422)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:33:58 evssearch: 9.0.4.0.0 Started
+05/06/21 10:33:58 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find message resources under key org.apache.struts.action.MESSAGE
+	at org.apache.struts.util.RequestUtils.retrieveMessageResources(RequestUtils.java:1103)
+	at org.apache.struts.util.RequestUtils.message(RequestUtils.java:1043)
+	at org.apache.struts.taglib.bean.MessageTag.doStartTag(MessageTag.java:294)
+	at _EVSSearch._jspService(EVSSearch.jsp:24)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:36:06 Started
+05/06/21 10:36:07 evssearch: JDevOJSP: init
+05/06/21 10:36:07 evssearch: action: init
+05/06/21 10:36:07 evssearch: Error preloading servlet
+javax.servlet.UnavailableException: Parsing error processing resource path 
+	at org.apache.struts.action.ActionServlet.handleConfigException(ActionServlet.java:1035)
+	at org.apache.struts.action.ActionServlet.parseModuleConfigFile(ActionServlet.java:1014)
+	at org.apache.struts.action.ActionServlet.initModuleConfig(ActionServlet.java:955)
+	at org.apache.struts.action.ActionServlet.init(ActionServlet.java:470)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:259)
+	at com.evermind.server.http.HttpApplication.loadServlet(HttpApplication.java:2094)
+	at com.evermind.server.http.HttpApplication.findServlet(HttpApplication.java:4523)
+	at com.evermind.server.http.HttpApplication.initPreloadServlets(HttpApplication.java:4617)
+	at com.evermind.server.http.HttpApplication.initDynamic(HttpApplication.java:765)
+	at com.evermind.server.http.HttpApplication.<init>(HttpApplication.java:497)
+	at com.evermind.server.Application.getHttpApplication(Application.java:886)
+	at com.evermind.server.http.HttpServer.getHttpApplication(HttpServer.java:688)
+	at com.evermind.server.http.HttpSite.getApplication(HttpSite.java:420)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:422)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:36:07 evssearch: 9.0.4.0.0 Started
+05/06/21 10:36:07 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find message resources under key org.apache.struts.action.MESSAGE
+	at org.apache.struts.util.RequestUtils.retrieveMessageResources(RequestUtils.java:1103)
+	at org.apache.struts.util.RequestUtils.message(RequestUtils.java:1043)
+	at org.apache.struts.taglib.bean.MessageTag.doStartTag(MessageTag.java:294)
+	at _EVSSearch._jspService(EVSSearch.jsp:24)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:36:34 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find message resources under key org.apache.struts.action.MESSAGE
+	at org.apache.struts.util.RequestUtils.retrieveMessageResources(RequestUtils.java:1103)
+	at org.apache.struts.util.RequestUtils.message(RequestUtils.java:1043)
+	at org.apache.struts.taglib.bean.MessageTag.doStartTag(MessageTag.java:294)
+	at _EVSSearch._jspService(EVSSearch.jsp:24)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:37:54 Started
+05/06/21 10:37:55 evssearch: JDevOJSP: init
+05/06/21 10:37:55 evssearch: action: init
+05/06/21 10:37:56 evssearch: 9.0.4.0.0 Started
+05/06/21 10:39:22 Started
+05/06/21 10:39:23 evssearch: JDevOJSP: init
+05/06/21 10:39:23 evssearch: action: init
+05/06/21 10:39:24 evssearch: 9.0.4.0.0 Started
+05/06/21 10:40:18 Started
+05/06/21 10:40:19 evssearch: JDevOJSP: init
+05/06/21 10:40:19 evssearch: action: init
+05/06/21 10:40:19 evssearch: 9.0.4.0.0 Started
+05/06/21 10:41:51 Started
+05/06/21 10:41:53 evssearch: JDevOJSP: init
+05/06/21 10:41:53 evssearch: action: init
+05/06/21 10:41:53 evssearch: 9.0.4.0.0 Started
+05/06/21 10:44:06 Started
+05/06/21 10:44:07 evssearch: JDevOJSP: init
+05/06/21 10:44:07 evssearch: action: init
+05/06/21 10:44:07 evssearch: 9.0.4.0.0 Started
+05/06/21 10:47:07 Started
+05/06/21 10:47:09 evssearch: JDevOJSP: init
+05/06/21 10:47:09 evssearch: action: init
+05/06/21 10:47:09 evssearch: 9.0.4.0.0 Started
+05/06/21 10:48:55 Started
+05/06/21 10:48:56 evssearch: JDevOJSP: init
+05/06/21 10:48:56 evssearch: action: init
+05/06/21 10:48:57 evssearch: 9.0.4.0.0 Started
+05/06/21 10:49:13 Started
+05/06/21 10:49:14 evssearch: JDevOJSP: init
+05/06/21 10:49:14 evssearch: action: init
+05/06/21 10:49:15 evssearch: 9.0.4.0.0 Started
+05/06/21 10:50:27 Started
+05/06/21 10:50:28 evssearch: JDevOJSP: init
+05/06/21 10:50:28 evssearch: action: init
+05/06/21 10:50:28 evssearch: 9.0.4.0.0 Started
+05/06/21 10:52:42 Started
+05/06/21 10:52:43 evssearch: JDevOJSP: init
+05/06/21 10:52:43 evssearch: action: init
+05/06/21 10:52:44 evssearch: 9.0.4.0.0 Started
+05/06/21 10:54:25 Started
+05/06/21 10:54:26 evssearch: JDevOJSP: init
+05/06/21 10:54:26 evssearch: action: init
+05/06/21 10:54:26 evssearch: 9.0.4.0.0 Started
+05/06/21 10:58:14 Started
+05/06/21 10:58:15 evssearch: JDevOJSP: init
+05/06/21 10:58:15 evssearch: action: init
+05/06/21 10:58:15 evssearch: 9.0.4.0.0 Started
+05/06/21 10:58:20 evssearch: Servlet error
+java.lang.NullPointerException
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:38)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 10:58:41 Started
+05/06/21 10:58:42 evssearch: JDevOJSP: init
+05/06/21 10:58:42 evssearch: action: init
+05/06/21 10:58:42 evssearch: 9.0.4.0.0 Started
+05/06/21 11:02:38 Started
+05/06/21 11:02:40 evssearch: JDevOJSP: init
+05/06/21 11:02:40 evssearch: action: init
+05/06/21 11:02:40 evssearch: 9.0.4.0.0 Started
+05/06/21 11:44:16 Started
+05/06/21 11:44:17 evssearch: JDevOJSP: init
+05/06/21 11:44:17 evssearch: action: init
+05/06/21 11:44:17 evssearch: 9.0.4.0.0 Started
+05/06/21 12:50:47 Started
+05/06/21 12:50:48 evssearch: JDevOJSP: init
+05/06/21 12:50:48 evssearch: action: init
+05/06/21 12:50:48 evssearch: 9.0.4.0.0 Started
+05/06/21 12:50:48 evssearch: Servlet error
+javax.servlet.jsp.JspException: No selector attribute (cookie/header/name/parameter) was specified
+	at org.apache.struts.taglib.logic.CompareTagBase.condition(CompareTagBase.java:249)
+	at org.apache.struts.taglib.logic.NotEqualTag.condition(NotEqualTag.java:90)
+	at org.apache.struts.taglib.logic.ConditionalTagBase.doStartTag(ConditionalTagBase.java:218)
+	at _EVSSearch._jspService(EVSSearch.jsp:82)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 12:57:15 Started
+05/06/21 12:57:16 evssearch: JDevOJSP: init
+05/06/21 12:57:16 evssearch: action: init
+05/06/21 12:57:17 evssearch: 9.0.4.0.0 Started
+05/06/21 12:57:18 evssearch: Servlet error
+java.lang.NullPointerException
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.EvermindHttpServletRequest.getAttribute(EvermindHttpServletRequest.java:3113)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:38)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 12:57:46 Started
+05/06/21 12:57:47 evssearch: JDevOJSP: init
+05/06/21 12:57:47 evssearch: action: init
+05/06/21 12:57:48 evssearch: 9.0.4.0.0 Started
+05/06/21 12:58:32 Started
+05/06/21 12:58:33 evssearch: JDevOJSP: init
+05/06/21 12:58:33 evssearch: action: init
+05/06/21 12:58:33 evssearch: 9.0.4.0.0 Started
+05/06/21 12:59:35 Started
+05/06/21 12:59:36 evssearch: JDevOJSP: init
+05/06/21 12:59:36 evssearch: action: init
+05/06/21 12:59:36 evssearch: 9.0.4.0.0 Started
+05/06/21 13:01:21 Started
+05/06/21 13:01:22 evssearch: JDevOJSP: init
+05/06/21 13:01:22 evssearch: action: init
+05/06/21 13:01:22 evssearch: 9.0.4.0.0 Started
+05/06/21 13:02:50 Started
+05/06/21 13:02:51 evssearch: JDevOJSP: init
+05/06/21 13:02:51 evssearch: action: init
+05/06/21 13:02:52 evssearch: 9.0.4.0.0 Started
+05/06/21 13:02:52 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:41)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:03:42 Started
+05/06/21 13:03:43 evssearch: JDevOJSP: init
+05/06/21 13:03:43 evssearch: action: init
+05/06/21 13:03:44 evssearch: 9.0.4.0.0 Started
+05/06/21 13:03:44 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:41)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:06:50 Started
+05/06/21 13:06:51 evssearch: JDevOJSP: init
+05/06/21 13:06:51 evssearch: action: init
+05/06/21 13:06:52 evssearch: 9.0.4.0.0 Started
+05/06/21 13:06:52 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:40)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:07:30 Started
+05/06/21 13:07:31 evssearch: JDevOJSP: init
+05/06/21 13:07:31 evssearch: action: init
+05/06/21 13:07:31 evssearch: 9.0.4.0.0 Started
+05/06/21 13:16:37 Started
+05/06/21 13:16:38 evssearch: JDevOJSP: init
+05/06/21 13:16:38 evssearch: action: init
+05/06/21 13:16:38 evssearch: 9.0.4.0.0 Started
+05/06/21 13:18:51 Started
+05/06/21 13:18:52 evssearch: JDevOJSP: init
+05/06/21 13:18:52 evssearch: action: init
+05/06/21 13:18:52 evssearch: 9.0.4.0.0 Started
+05/06/21 13:20:36 Started
+05/06/21 13:20:37 evssearch: JDevOJSP: init
+05/06/21 13:20:37 evssearch: action: init
+05/06/21 13:20:37 evssearch: 9.0.4.0.0 Started
+05/06/21 13:21:07 Started
+05/06/21 13:21:08 evssearch: JDevOJSP: init
+05/06/21 13:21:08 evssearch: action: init
+05/06/21 13:21:09 evssearch: 9.0.4.0.0 Started
+05/06/21 13:21:40 Started
+05/06/21 13:21:41 evssearch: JDevOJSP: init
+05/06/21 13:21:42 evssearch: action: init
+05/06/21 13:21:42 evssearch: 9.0.4.0.0 Started
+05/06/21 13:22:06 Started
+05/06/21 13:22:07 evssearch: JDevOJSP: init
+05/06/21 13:22:07 evssearch: action: init
+05/06/21 13:22:08 evssearch: 9.0.4.0.0 Started
+05/06/21 13:22:37 Started
+05/06/21 13:22:38 evssearch: JDevOJSP: init
+05/06/21 13:22:38 evssearch: action: init
+05/06/21 13:22:39 evssearch: 9.0.4.0.0 Started
+05/06/21 13:31:33 Started
+05/06/21 13:31:34 evssearch: JDevOJSP: init
+05/06/21 13:31:34 evssearch: action: init
+05/06/21 13:31:35 evssearch: 9.0.4.0.0 Started
+05/06/21 13:31:35 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:32:24 Started
+05/06/21 13:32:25 evssearch: JDevOJSP: init
+05/06/21 13:32:25 evssearch: action: init
+05/06/21 13:32:25 evssearch: 9.0.4.0.0 Started
+05/06/21 13:32:25 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:36:12 Started
+05/06/21 13:36:13 evssearch: JDevOJSP: init
+05/06/21 13:36:13 evssearch: action: init
+05/06/21 13:36:13 evssearch: 9.0.4.0.0 Started
+05/06/21 13:36:13 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:36:39 Started
+05/06/21 13:36:40 evssearch: JDevOJSP: init
+05/06/21 13:36:40 evssearch: action: init
+05/06/21 13:36:40 evssearch: 9.0.4.0.0 Started
+05/06/21 13:36:40 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:37:02 Started
+05/06/21 13:37:03 evssearch: JDevOJSP: init
+05/06/21 13:37:03 evssearch: action: init
+05/06/21 13:37:04 evssearch: 9.0.4.0.0 Started
+05/06/21 13:37:04 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:38:10 Started
+05/06/21 13:38:11 evssearch: JDevOJSP: init
+05/06/21 13:38:11 evssearch: action: init
+05/06/21 13:38:11 evssearch: 9.0.4.0.0 Started
+05/06/21 13:38:11 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:38:40 Started
+05/06/21 13:38:41 evssearch: JDevOJSP: init
+05/06/21 13:38:41 evssearch: action: init
+05/06/21 13:38:42 evssearch: 9.0.4.0.0 Started
+05/06/21 13:38:42 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:42:01 Started
+05/06/21 13:42:02 evssearch: JDevOJSP: init
+05/06/21 13:42:03 evssearch: action: init
+05/06/21 13:42:03 evssearch: 9.0.4.0.0 Started
+05/06/21 13:42:03 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:42:14 Started
+05/06/21 13:42:15 evssearch: JDevOJSP: init
+05/06/21 13:42:15 evssearch: action: init
+05/06/21 13:42:16 evssearch: 9.0.4.0.0 Started
+05/06/21 13:43:13 Started
+05/06/21 13:43:14 evssearch: JDevOJSP: init
+05/06/21 13:43:14 evssearch: action: init
+05/06/21 13:43:15 evssearch: 9.0.4.0.0 Started
+05/06/21 13:43:15 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:44:13 Started
+05/06/21 13:44:14 evssearch: JDevOJSP: init
+05/06/21 13:44:15 evssearch: action: init
+05/06/21 13:44:15 evssearch: 9.0.4.0.0 Started
+05/06/21 13:44:15 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:48:26 Started
+05/06/21 13:48:28 evssearch: JDevOJSP: init
+05/06/21 13:48:28 evssearch: action: init
+05/06/21 13:48:28 evssearch: 9.0.4.0.0 Started
+05/06/21 13:48:28 evssearch: Servlet error
+javax.servlet.jsp.JspException: Cannot find bean org.apache.struts.taglib.html.BEAN in any scope
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:938)
+	at org.apache.struts.taglib.html.BaseFieldTag.doStartTag(BaseFieldTag.java:176)
+	at _EVSSearch._jspService(EVSSearch.jsp:35)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:48:38 Started
+05/06/21 13:48:39 evssearch: JDevOJSP: init
+05/06/21 13:48:39 evssearch: action: init
+05/06/21 13:48:40 evssearch: 9.0.4.0.0 Started
+05/06/21 13:49:03 Started
+05/06/21 13:49:04 evssearch: JDevOJSP: init
+05/06/21 13:49:04 evssearch: action: init
+05/06/21 13:49:05 evssearch: 9.0.4.0.0 Started
+05/06/21 13:49:26 Started
+05/06/21 13:49:27 evssearch: JDevOJSP: init
+05/06/21 13:49:27 evssearch: action: init
+05/06/21 13:49:28 evssearch: 9.0.4.0.0 Started
+05/06/21 13:50:10 Started
+05/06/21 13:50:11 evssearch: JDevOJSP: init
+05/06/21 13:50:11 evssearch: action: init
+05/06/21 13:50:12 evssearch: 9.0.4.0.0 Started
+05/06/21 13:50:37 Started
+05/06/21 13:50:38 evssearch: JDevOJSP: init
+05/06/21 13:50:38 evssearch: action: init
+05/06/21 13:50:39 evssearch: 9.0.4.0.0 Started
+05/06/21 13:53:05 Started
+05/06/21 13:53:06 evssearch: JDevOJSP: init
+05/06/21 13:53:06 evssearch: action: init
+05/06/21 13:53:07 evssearch: 9.0.4.0.0 Started
+05/06/21 13:54:00 Started
+05/06/21 13:54:02 evssearch: JDevOJSP: init
+05/06/21 13:54:02 evssearch: action: init
+05/06/21 13:54:02 evssearch: 9.0.4.0.0 Started
+05/06/21 13:56:32 Started
+05/06/21 13:56:33 evssearch: JDevOJSP: init
+05/06/21 13:56:33 evssearch: action: init
+05/06/21 13:56:33 evssearch: 9.0.4.0.0 Started
+05/06/21 13:56:33 evssearch: Servlet error
+javax.servlet.jsp.JspException: Missing message for key "EVSSearch.Search In"
+	at org.apache.struts.taglib.bean.MessageTag.doStartTag(MessageTag.java:297)
+	at _EVSSearch._jspService(EVSSearch.jsp:44)
+	at oracle.jsp.runtime.HttpJsp.service(HttpJsp.java:139)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:349)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/21 13:57:08 Started
+05/06/21 13:57:09 evssearch: JDevOJSP: init
+05/06/21 13:57:09 evssearch: action: init
+05/06/21 13:57:09 evssearch: 9.0.4.0.0 Started
+05/06/21 14:02:36 Started
+05/06/21 14:02:37 evssearch: JDevOJSP: init
+05/06/21 14:02:37 evssearch: action: init
+05/06/21 14:02:38 evssearch: 9.0.4.0.0 Started
+05/06/21 14:03:32 Started
+05/06/21 14:03:33 evssearch: JDevOJSP: init
+05/06/21 14:03:33 evssearch: action: init
+05/06/21 14:03:33 evssearch: 9.0.4.0.0 Started
+05/06/21 15:07:17 Started
+05/06/21 15:07:18 evssearch: JDevOJSP: init
+05/06/21 15:07:18 evssearch: action: init
+05/06/21 15:07:19 evssearch: 9.0.4.0.0 Started
+05/06/21 15:08:23 Started
+05/06/21 15:08:24 evssearch: JDevOJSP: init
+05/06/21 15:08:24 evssearch: action: init
+05/06/21 15:08:24 evssearch: 9.0.4.0.0 Started
+05/06/21 15:12:49 Started
+05/06/21 15:12:50 evssearch: JDevOJSP: init
+05/06/21 15:12:50 evssearch: action: init
+05/06/21 15:12:50 evssearch: 9.0.4.0.0 Started
+05/06/21 15:18:03 Started
+05/06/21 15:18:04 evssearch: JDevOJSP: init
+05/06/21 15:18:04 evssearch: action: init
+05/06/21 15:18:05 evssearch: 9.0.4.0.0 Started
+05/06/21 15:53:13 Started
+05/06/21 15:53:14 evssearch: JDevOJSP: init
+05/06/21 15:53:14 evssearch: action: init
+05/06/21 15:53:14 evssearch: 9.0.4.0.0 Started
+05/06/22 11:22:32 Started
+05/06/22 11:22:34 evssearch: JDevOJSP: init
+05/06/22 11:22:34 evssearch: action: init
+05/06/22 11:22:34 evssearch: 9.0.4.0.0 Started
+05/06/22 11:27:45 Started
+05/06/22 11:27:46 evssearch: JDevOJSP: init
+05/06/22 11:27:47 evssearch: action: init
+05/06/22 11:27:47 evssearch: 9.0.4.0.0 Started
+05/06/22 11:29:53 Started
+05/06/22 11:29:54 evssearch: JDevOJSP: init
+05/06/22 11:29:54 evssearch: action: init
+05/06/22 11:29:54 evssearch: 9.0.4.0.0 Started
+05/06/22 11:31:37 Started
+05/06/22 11:31:38 evssearch: JDevOJSP: init
+05/06/22 11:31:38 evssearch: action: init
+05/06/22 11:31:38 evssearch: 9.0.4.0.0 Started
+05/06/22 11:33:06 Started
+05/06/22 11:33:07 evssearch: JDevOJSP: init
+05/06/22 11:33:07 evssearch: action: init
+05/06/22 11:33:08 evssearch: 9.0.4.0.0 Started
+05/06/22 11:35:10 Started
+05/06/22 11:35:12 evssearch: JDevOJSP: init
+05/06/22 11:35:12 evssearch: action: init
+05/06/22 11:35:12 evssearch: 9.0.4.0.0 Started
+05/06/22 11:39:54 Started
+05/06/22 11:39:55 evssearch: JDevOJSP: init
+05/06/22 11:39:56 evssearch: action: init
+05/06/22 11:39:56 evssearch: 9.0.4.0.0 Started
+05/06/22 11:40:10 Started
+05/06/22 11:40:12 evssearch: JDevOJSP: init
+05/06/22 11:40:12 evssearch: action: init
+05/06/22 11:40:12 evssearch: 9.0.4.0.0 Started
+05/06/22 11:45:46 evssearch: Connection reset by peer: socket write error
+05/06/22 11:45:46 evssearch: Connection reset by peer: socket write error
+05/06/22 11:45:46 evssearch: Connection reset by peer: socket write error
+05/06/22 11:45:46 evssearch: Connection reset by peer: socket write error
+05/06/22 11:45:47 Started
+05/06/22 11:45:48 evssearch: JDevOJSP: init
+05/06/22 11:45:48 evssearch: action: init
+05/06/22 11:45:49 evssearch: 9.0.4.0.0 Started
+05/06/22 11:53:04 Started
+05/06/22 11:53:05 evssearch: JDevOJSP: init
+05/06/22 11:53:05 evssearch: action: init
+05/06/22 11:53:05 evssearch: 9.0.4.0.0 Started
+05/06/22 11:53:20 Started
+05/06/22 11:53:21 evssearch: JDevOJSP: init
+05/06/22 11:53:21 evssearch: action: init
+05/06/22 11:53:21 evssearch: 9.0.4.0.0 Started
+05/06/22 12:02:41 Started
+05/06/22 12:02:42 evssearch: JDevOJSP: init
+05/06/22 12:02:42 evssearch: action: init
+05/06/22 12:02:43 evssearch: 9.0.4.0.0 Started
+05/06/22 14:16:31 Started
+05/06/22 14:16:32 evssearch: JDevOJSP: init
+05/06/22 14:16:32 evssearch: action: init
+05/06/22 14:16:32 evssearch: 9.0.4.0.0 Started
+05/06/22 14:17:28 Started
+05/06/22 14:17:29 evssearch: JDevOJSP: init
+05/06/22 14:17:30 evssearch: action: init
+05/06/22 14:17:30 evssearch: 9.0.4.0.0 Started
+05/06/22 14:28:19 Started
+05/06/22 14:28:20 evssearch: JDevOJSP: init
+05/06/22 14:28:20 evssearch: action: init
+05/06/22 14:28:20 evssearch: 9.0.4.0.0 Started
+05/06/22 14:30:15 Started
+05/06/22 14:30:16 evssearch: JDevOJSP: init
+05/06/22 14:30:16 evssearch: action: init
+05/06/22 14:30:16 evssearch: 9.0.4.0.0 Started
+05/06/22 15:11:17 Started
+05/06/22 15:11:18 evssearch: JDevOJSP: init
+05/06/22 15:11:18 evssearch: action: init
+05/06/22 15:11:18 evssearch: 9.0.4.0.0 Started
+05/06/22 15:11:52 Started
+05/06/22 15:11:52 evssearch: JDevOJSP: init
+05/06/22 15:11:53 evssearch: action: init
+05/06/22 15:11:53 evssearch: 9.0.4.0.0 Started
+05/06/22 15:15:47 Started
+05/06/22 15:15:48 evssearch: JDevOJSP: init
+05/06/22 15:15:48 evssearch: action: init
+05/06/22 15:15:49 evssearch: 9.0.4.0.0 Started
+05/06/22 15:17:01 Started
+05/06/22 15:17:02 evssearch: JDevOJSP: init
+05/06/22 15:17:02 evssearch: action: init
+05/06/22 15:17:03 evssearch: 9.0.4.0.0 Started
+05/06/22 15:17:31 Started
+05/06/22 15:17:32 evssearch: JDevOJSP: init
+05/06/22 15:17:32 evssearch: action: init
+05/06/22 15:17:32 evssearch: 9.0.4.0.0 Started
+05/06/22 15:22:15 Started
+05/06/22 15:22:16 evssearch: JDevOJSP: init
+05/06/22 15:22:16 evssearch: action: init
+05/06/22 15:22:17 evssearch: 9.0.4.0.0 Started
+05/06/22 15:23:38 Started
+05/06/22 15:23:39 evssearch: JDevOJSP: init
+05/06/22 15:23:39 evssearch: action: init
+05/06/22 15:23:40 evssearch: 9.0.4.0.0 Started
+05/06/22 15:25:39 Started
+05/06/22 15:25:40 evssearch: JDevOJSP: init
+05/06/22 15:25:40 evssearch: action: init
+05/06/22 15:25:40 evssearch: 9.0.4.0.0 Started
+05/06/22 15:29:54 Started
+05/06/22 15:29:55 evssearch: JDevOJSP: init
+05/06/22 15:29:55 evssearch: action: init
+05/06/22 15:29:55 evssearch: 9.0.4.0.0 Started
+05/06/22 15:33:34 Started
+05/06/22 15:33:35 evssearch: JDevOJSP: init
+05/06/22 15:33:35 evssearch: action: init
+05/06/22 15:33:36 evssearch: 9.0.4.0.0 Started
+05/06/22 15:36:51 Started
+05/06/22 15:36:52 evssearch: JDevOJSP: init
+05/06/22 15:36:52 evssearch: action: init
+05/06/22 15:36:52 evssearch: 9.0.4.0.0 Started
+05/06/22 15:39:31 Started
+05/06/22 15:39:32 evssearch: JDevOJSP: init
+05/06/22 15:39:32 evssearch: action: init
+05/06/22 15:39:33 evssearch: 9.0.4.0.0 Started
+05/06/22 15:41:37 Started
+05/06/22 15:41:38 evssearch: JDevOJSP: init
+05/06/22 15:41:38 evssearch: action: init
+05/06/22 15:41:38 evssearch: 9.0.4.0.0 Started
+05/06/22 15:49:50 Started
+05/06/22 15:49:52 evssearch: JDevOJSP: init
+05/06/22 15:49:52 evssearch: action: init
+05/06/22 15:49:52 evssearch: 9.0.4.0.0 Started
+05/06/22 15:52:02 Started
+05/06/22 15:52:03 evssearch: JDevOJSP: init
+05/06/22 15:52:03 evssearch: action: init
+05/06/22 15:52:03 evssearch: 9.0.4.0.0 Started
+05/07/24 10:10:04 Started
+05/07/24 10:10:08 evssearch: JDevOJSP: init
+05/07/24 10:10:08 evssearch: action: init
+05/07/24 10:10:08 evssearch: 9.0.4.0.0 Started
+05/07/24 10:12:29 Started
+05/07/24 10:12:31 evssearch: JDevOJSP: init
+05/07/24 10:12:31 evssearch: action: init
+05/07/24 10:12:31 evssearch: 9.0.4.0.0 Started
+05/07/24 10:13:17 Started
+05/07/24 10:13:18 evssearch: JDevOJSP: init
+05/07/24 10:13:18 evssearch: action: init
+05/07/24 10:13:18 evssearch: 9.0.4.0.0 Started
+05/07/24 10:21:31 Started
+05/07/24 10:21:32 evssearch: JDevOJSP: init
+05/07/24 10:21:32 evssearch: action: init
+05/07/24 10:21:32 evssearch: 9.0.4.0.0 Started
+05/07/24 10:31:54 Started
+05/07/24 10:31:55 evssearch: JDevOJSP: init
+05/07/24 10:31:55 evssearch: action: init
+05/07/24 10:31:55 evssearch: 9.0.4.0.0 Started
+05/06/25 07:37:11 Started
+05/06/25 07:37:20 evssearch: JDevOJSP: init
+05/06/25 07:37:20 evssearch: action: init
+05/06/25 07:37:20 evssearch: 9.0.4.0.0 Started
+05/06/25 07:44:54 Started
+05/06/25 07:45:04 evssearch: JDevOJSP: init
+05/06/25 07:45:04 evssearch: action: init
+05/06/25 07:45:04 evssearch: 9.0.4.0.0 Started
+05/06/25 07:47:39 Started
+05/06/25 07:47:49 evssearch: JDevOJSP: init
+05/06/25 07:47:49 evssearch: action: init
+05/06/25 07:47:49 evssearch: 9.0.4.0.0 Started
+05/06/25 07:48:53 Started
+05/06/25 07:48:59 evssearch: JDevOJSP: init
+05/06/25 07:48:59 evssearch: action: init
+05/06/25 07:49:00 evssearch: 9.0.4.0.0 Started
+05/06/25 07:51:12 Started
+05/06/25 07:51:20 evssearch: JDevOJSP: init
+05/06/25 07:51:20 evssearch: action: init
+05/06/25 07:51:20 evssearch: 9.0.4.0.0 Started
+05/06/25 07:52:38 Started
+05/06/25 07:52:48 evssearch: JDevOJSP: init
+05/06/25 07:52:49 evssearch: action: init
+05/06/25 07:52:49 evssearch: 9.0.4.0.0 Started
+05/06/25 07:56:27 Started
+05/06/25 07:56:43 evssearch: JDevOJSP: init
+05/06/25 07:56:43 evssearch: action: init
+05/06/25 07:56:43 evssearch: 9.0.4.0.0 Started
+05/06/25 07:56:58 Started
+05/06/25 07:57:13 evssearch: JDevOJSP: init
+05/06/25 07:57:13 evssearch: action: init
+05/06/25 07:57:13 evssearch: 9.0.4.0.0 Started
+05/06/25 07:58:33 Started
+05/06/25 07:58:41 evssearch: JDevOJSP: init
+05/06/25 07:58:41 evssearch: action: init
+05/06/25 07:58:41 evssearch: 9.0.4.0.0 Started
+05/06/25 07:59:01 Started
+05/06/25 07:59:07 evssearch: JDevOJSP: init
+05/06/25 07:59:08 evssearch: action: init
+05/06/25 07:59:08 evssearch: 9.0.4.0.0 Started
+05/06/25 08:00:30 Started
+05/06/25 08:01:12 Started
+05/06/25 08:01:25 evssearch: JDevOJSP: init
+05/06/25 08:01:25 evssearch: action: init
+05/06/25 08:01:25 evssearch: 9.0.4.0.0 Started
+05/06/25 08:05:56 Started
+05/06/25 08:06:10 evssearch: JDevOJSP: init
+05/06/25 08:06:10 evssearch: action: init
+05/06/25 08:06:10 evssearch: 9.0.4.0.0 Started
+05/06/25 08:17:34 Started
+05/06/25 08:17:48 evssearch: JDevOJSP: init
+05/06/25 08:17:48 evssearch: action: init
+05/06/25 08:17:48 evssearch: 9.0.4.0.0 Started
+05/06/25 08:19:02 Started
+05/06/25 08:19:10 evssearch: JDevOJSP: init
+05/06/25 08:19:10 evssearch: action: init
+05/06/25 08:19:11 evssearch: 9.0.4.0.0 Started
+05/06/25 08:20:10 Started
+05/06/25 08:20:11 evssearch: JDevOJSP: init
+05/06/25 08:20:11 evssearch: action: init
+05/06/25 08:20:11 evssearch: 9.0.4.0.0 Started
+05/06/25 08:20:22 Started
+05/06/25 08:20:30 evssearch: JDevOJSP: init
+05/06/25 08:20:30 evssearch: action: init
+05/06/25 08:20:31 evssearch: 9.0.4.0.0 Started
+05/06/25 08:21:42 Started
+05/06/25 08:21:47 evssearch: JDevOJSP: init
+05/06/25 08:21:47 evssearch: action: init
+05/06/25 08:21:47 evssearch: 9.0.4.0.0 Started
+05/06/25 08:23:34 Started
+05/06/25 08:23:39 evssearch: JDevOJSP: init
+05/06/25 08:23:40 evssearch: action: init
+05/06/25 08:23:40 evssearch: 9.0.4.0.0 Started
+05/06/25 08:25:33 Started
+05/06/25 08:25:40 evssearch: JDevOJSP: init
+05/06/25 08:25:40 evssearch: action: init
+05/06/25 08:25:40 evssearch: 9.0.4.0.0 Started
+05/06/25 08:30:40 Started
+05/06/25 08:30:46 evssearch: JDevOJSP: init
+05/06/25 08:30:47 evssearch: action: init
+05/06/25 08:30:47 evssearch: 9.0.4.0.0 Started
+05/06/25 08:33:06 Started
+05/06/25 08:33:15 evssearch: JDevOJSP: init
+05/06/25 08:33:15 evssearch: action: init
+05/06/25 08:33:15 evssearch: 9.0.4.0.0 Started
+05/06/25 08:37:54 Started
+05/06/25 08:38:02 evssearch: JDevOJSP: init
+05/06/25 08:38:02 evssearch: action: init
+05/06/25 08:38:02 evssearch: 9.0.4.0.0 Started
+05/06/25 08:45:05 Started
+05/06/25 08:45:12 evssearch: JDevOJSP: init
+05/06/25 08:45:12 evssearch: action: init
+05/06/25 08:45:12 evssearch: 9.0.4.0.0 Started
+05/06/25 08:46:10 Started
+05/06/25 08:46:17 evssearch: JDevOJSP: init
+05/06/25 08:46:17 evssearch: action: init
+05/06/25 08:46:18 evssearch: 9.0.4.0.0 Started
+05/06/25 08:47:06 Started
+05/06/25 08:47:14 evssearch: JDevOJSP: init
+05/06/25 08:47:15 evssearch: action: init
+05/06/25 08:47:15 evssearch: 9.0.4.0.0 Started
+05/06/25 08:48:26 Started
+05/06/25 08:48:32 evssearch: JDevOJSP: init
+05/06/25 08:48:33 evssearch: action: init
+05/06/25 08:48:33 evssearch: 9.0.4.0.0 Started
+05/06/25 08:50:13 Started
+05/06/25 08:50:19 evssearch: JDevOJSP: init
+05/06/25 08:50:20 evssearch: action: init
+05/06/25 08:50:20 evssearch: 9.0.4.0.0 Started
+05/06/25 08:51:15 Started
+05/06/25 08:51:20 evssearch: JDevOJSP: init
+05/06/25 08:51:21 evssearch: action: init
+05/06/25 08:51:21 evssearch: 9.0.4.0.0 Started
+05/06/25 09:00:30 Started
+05/06/25 09:00:37 evssearch: JDevOJSP: init
+05/06/25 09:00:37 evssearch: action: init
+05/06/25 09:00:38 evssearch: 9.0.4.0.0 Started
+05/06/25 09:19:18 Started
+05/06/25 09:19:23 evssearch: JDevOJSP: init
+05/06/25 09:19:23 evssearch: action: init
+05/06/25 09:19:24 evssearch: 9.0.4.0.0 Started
+05/06/25 09:19:56 Started
+05/06/25 09:20:04 evssearch: JDevOJSP: init
+05/06/25 09:20:04 evssearch: action: init
+05/06/25 09:20:04 evssearch: 9.0.4.0.0 Started
+05/06/25 09:20:39 Started
+05/06/25 09:20:51 evssearch: JDevOJSP: init
+05/06/25 09:20:51 evssearch: action: init
+05/06/25 09:20:51 evssearch: 9.0.4.0.0 Started
+05/06/25 09:21:16 Started
+05/06/25 09:21:22 evssearch: JDevOJSP: init
+05/06/25 09:21:22 evssearch: action: init
+05/06/25 09:21:22 evssearch: 9.0.4.0.0 Started
+05/06/25 09:28:50 Started
+05/06/25 09:28:59 Started
+05/06/25 09:29:09 evssearch: JDevOJSP: init
+05/06/25 09:29:09 evssearch: action: init
+05/06/25 09:29:09 evssearch: 9.0.4.0.0 Started
+05/06/25 12:52:47 Started
+05/06/25 12:52:56 evssearch: JDevOJSP: init
+05/06/25 12:52:56 evssearch: action: init
+05/06/25 12:52:57 evssearch: 9.0.4.0.0 Started
+05/06/25 13:01:14 Started
+05/06/25 13:01:21 evssearch: JDevOJSP: init
+05/06/25 13:01:21 evssearch: action: init
+05/06/25 13:01:22 evssearch: 9.0.4.0.0 Started
+05/06/25 13:20:11 Started
+05/06/25 13:20:16 evssearch: JDevOJSP: init
+05/06/25 13:20:16 evssearch: action: init
+05/06/25 13:20:16 evssearch: 9.0.4.0.0 Started
+05/06/25 13:21:04 Started
+05/06/25 13:21:09 evssearch: JDevOJSP: init
+05/06/25 13:21:09 evssearch: action: init
+05/06/25 13:21:09 evssearch: 9.0.4.0.0 Started
+05/06/25 14:28:46 Started
+05/06/25 14:28:53 evssearch: JDevOJSP: init
+05/06/25 14:28:53 evssearch: action: init
+05/06/25 14:28:53 evssearch: 9.0.4.0.0 Started
+05/06/25 14:31:19 evssearch: com.evermind.server.http.NotFoundServlet: init
+05/06/25 14:36:30 Started
+05/06/25 14:36:37 evssearch: JDevOJSP: init
+05/06/25 14:36:37 evssearch: action: init
+05/06/25 14:36:37 evssearch: 9.0.4.0.0 Started
+05/06/25 14:37:31 evssearch: Servlet error
+java.lang.NoSuchMethodError: void gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSSearch.searchEVS(EVSSearch.java:325)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:41)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/25 14:38:49 Started
+05/06/25 14:38:57 evssearch: JDevOJSP: init
+05/06/25 14:38:57 evssearch: action: init
+05/06/25 14:38:58 evssearch: 9.0.4.0.0 Started
+05/06/25 14:38:58 evssearch: Servlet error
+java.lang.NoSuchMethodError: void gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSSearch.searchEVS(EVSSearch.java:325)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:41)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/25 14:39:47 Started
+05/06/25 14:39:52 evssearch: JDevOJSP: init
+05/06/25 14:39:52 evssearch: action: init
+05/06/25 14:39:52 evssearch: 9.0.4.0.0 Started
+05/06/25 14:39:53 evssearch: Servlet error
+java.lang.NoSuchMethodError: void gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSSearch.searchEVS(EVSSearch.java:325)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:41)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/25 14:41:26 Started
+05/06/25 14:41:37 evssearch: JDevOJSP: init
+05/06/25 14:41:37 evssearch: action: init
+05/06/25 14:41:37 evssearch: 9.0.4.0.0 Started
+05/06/25 14:41:38 evssearch: Servlet error
+java.lang.NoSuchMethodError: void gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSSearch.searchEVS(EVSSearch.java:325)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:41)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:186)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/25 14:43:19 Started
+05/06/25 14:43:24 evssearch: JDevOJSP: init
+05/06/25 14:43:24 evssearch: action: init
+05/06/25 14:43:25 evssearch: 9.0.4.0.0 Started
+05/06/25 14:43:25 evssearch: Servlet error
+java.lang.NoSuchMethodError: void gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSSearch.searchEVS(EVSSearch.java:325)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:41)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/25 14:47:51 Started
+05/06/25 14:47:58 evssearch: JDevOJSP: init
+05/06/25 14:47:58 evssearch: action: init
+05/06/25 14:47:58 evssearch: 9.0.4.0.0 Started
+05/06/25 14:47:59 evssearch: Servlet error
+java.lang.NoSuchMethodError: void gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSSearch.searchEVS(EVSSearch.java:325)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:41)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:509)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/25 14:50:38 Started
+05/06/25 14:50:49 evssearch: JDevOJSP: init
+05/06/25 14:50:49 evssearch: action: init
+05/06/25 14:50:49 evssearch: 9.0.4.0.0 Started
+05/06/25 14:50:50 evssearch: Servlet error
+java.lang.NoSuchMethodError: void gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.EVSSearch.searchEVS(EVSSearch.java:325)
+	at gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts.perform(FindConcepts.java:41)
+	at org.apache.struts.action.Action.execute(Action.java:420)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1482)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:507)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:604)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:317)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (9.0.4.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:186)
+	at java.lang.Thread.run(Thread.java:534)
+05/06/25 14:51:06 Started
+05/06/25 14:51:13 evssearch: JDevOJSP: init
+05/06/25 14:51:13 evssearch: action: init
+05/06/25 14:51:13 evssearch: 9.0.4.0.0 Started
+05/06/25 14:55:46 Started
+05/06/25 15:05:01 evssearch: JDevOJSP: init
+05/06/25 15:05:01 evssearch: action: init
+05/06/25 15:05:01 evssearch: 9.0.4.0.0 Started
+05/06/25 17:01:14 Started
+05/06/25 17:01:20 evssearch: JDevOJSP: init
+05/06/25 17:01:20 evssearch: action: init
+05/06/25 17:01:20 evssearch: 9.0.4.0.0 Started
+05/06/25 17:03:28 Started
+05/06/25 17:03:36 evssearch: JDevOJSP: init
+05/06/25 17:03:37 evssearch: action: init
+05/06/25 17:03:37 evssearch: 9.0.4.0.0 Started
+05/06/25 17:07:48 Started
+05/06/25 17:07:54 evssearch: JDevOJSP: init
+05/06/25 17:07:54 evssearch: action: init
+05/06/25 17:07:55 evssearch: 9.0.4.0.0 Started
+05/06/25 17:10:18 Started
+05/06/25 17:10:22 evssearch: JDevOJSP: init
+05/06/25 17:10:22 evssearch: action: init
+05/06/25 17:10:23 evssearch: 9.0.4.0.0 Started
+05/06/25 17:13:24 Started
+05/06/25 17:13:29 evssearch: JDevOJSP: init
+05/06/25 17:13:29 evssearch: action: init
+05/06/25 17:13:29 evssearch: 9.0.4.0.0 Started
+05/06/25 17:15:24 Started
+05/06/25 17:15:29 evssearch: JDevOJSP: init
+05/06/25 17:15:29 evssearch: action: init
+05/06/25 17:15:29 evssearch: 9.0.4.0.0 Started
+05/06/25 17:16:13 Started
+05/06/25 17:16:17 evssearch: JDevOJSP: init
+05/06/25 17:16:17 evssearch: action: init
+05/06/25 17:16:18 evssearch: 9.0.4.0.0 Started
+05/06/25 17:27:01 Started
+05/06/25 17:27:06 evssearch: JDevOJSP: init
+05/06/25 17:27:06 evssearch: action: init
+05/06/25 17:27:06 evssearch: 9.0.4.0.0 Started
+05/06/25 17:34:03 Started
+05/06/25 17:34:11 evssearch: JDevOJSP: init
+05/06/25 17:34:11 evssearch: action: init
+05/06/25 17:34:11 evssearch: 9.0.4.0.0 Started
+05/06/25 17:37:05 Started
+05/06/25 17:37:12 evssearch: JDevOJSP: init
+05/06/25 17:37:12 evssearch: action: init
+05/06/25 17:37:12 evssearch: 9.0.4.0.0 Started
+05/06/25 17:39:04 Started
+05/06/25 17:39:10 evssearch: JDevOJSP: init
+05/06/25 17:39:10 evssearch: action: init
+05/06/25 17:39:10 evssearch: 9.0.4.0.0 Started
+05/06/25 17:41:38 Started
+05/06/25 17:41:43 evssearch: JDevOJSP: init
+05/06/25 17:41:43 evssearch: action: init
+05/06/25 17:41:43 evssearch: 9.0.4.0.0 Started
+05/06/25 17:42:16 Started
+05/06/25 17:42:25 evssearch: JDevOJSP: init
+05/06/25 17:42:25 evssearch: action: init
+05/06/25 17:42:25 evssearch: 9.0.4.0.0 Started
+05/06/25 17:44:43 Started
+05/06/25 17:44:56 evssearch: JDevOJSP: init
+05/06/25 17:44:56 evssearch: action: init
+05/06/25 17:44:57 evssearch: 9.0.4.0.0 Started
+05/06/27 11:33:01 Started
+05/06/27 11:33:02 evssearch: JDevOJSP: init
+05/06/27 11:33:03 evssearch: action: init
+05/06/27 11:33:03 evssearch: 9.0.4.0.0 Started
+05/06/27 11:36:29 Started
+05/06/27 11:36:30 evssearch: JDevOJSP: init
+05/06/27 11:36:30 evssearch: action: init
+05/06/27 11:36:30 evssearch: 9.0.4.0.0 Started
+05/06/27 11:37:12 Started
+05/06/27 11:37:14 evssearch: JDevOJSP: init
+05/06/27 11:37:14 evssearch: action: init
+05/06/27 11:37:14 evssearch: 9.0.4.0.0 Started
+05/06/27 11:39:05 Started
+05/06/27 11:39:07 evssearch: JDevOJSP: init
+05/06/27 11:39:07 evssearch: action: init
+05/06/27 11:39:07 evssearch: 9.0.4.0.0 Started
+05/06/27 11:40:10 Started
+05/06/27 11:40:11 evssearch: JDevOJSP: init
+05/06/27 11:40:11 evssearch: action: init
+05/06/27 11:40:12 evssearch: 9.0.4.0.0 Started
+05/06/27 11:43:05 Started
+05/06/27 11:43:06 evssearch: JDevOJSP: init
+05/06/27 11:43:06 evssearch: action: init
+05/06/27 11:43:06 evssearch: 9.0.4.0.0 Started
+05/06/27 11:44:11 Started
+05/06/27 11:44:12 evssearch: JDevOJSP: init
+05/06/27 11:44:12 evssearch: action: init
+05/06/27 11:44:12 evssearch: 9.0.4.0.0 Started
+05/06/27 11:47:13 Started
+05/06/27 11:47:14 evssearch: JDevOJSP: init
+05/06/27 11:47:14 evssearch: action: init
+05/06/27 11:47:15 evssearch: 9.0.4.0.0 Started
+05/06/27 11:49:37 Started
+05/06/27 11:49:38 evssearch: JDevOJSP: init
+05/06/27 11:49:38 evssearch: action: init
+05/06/27 11:49:38 evssearch: 9.0.4.0.0 Started
+05/06/27 11:54:02 Started
+05/06/27 11:54:03 evssearch: JDevOJSP: init
+05/06/27 11:54:03 evssearch: action: init
+05/06/27 11:54:04 evssearch: 9.0.4.0.0 Started
+05/06/27 11:57:36 Started
+05/06/27 11:57:37 evssearch: JDevOJSP: init
+05/06/27 11:57:37 evssearch: action: init
+05/06/27 11:57:38 evssearch: 9.0.4.0.0 Started
+05/06/27 11:58:33 Started
+05/06/27 11:58:34 evssearch: JDevOJSP: init
+05/06/27 11:58:34 evssearch: action: init
+05/06/27 11:58:34 evssearch: 9.0.4.0.0 Started
+05/06/27 11:59:51 Started
+05/06/27 11:59:52 evssearch: JDevOJSP: init
+05/06/27 11:59:52 evssearch: action: init
+05/06/27 11:59:52 evssearch: 9.0.4.0.0 Started
+05/06/27 12:01:47 Started
+05/06/27 12:01:48 evssearch: JDevOJSP: init
+05/06/27 12:01:48 evssearch: action: init
+05/06/27 12:01:49 evssearch: 9.0.4.0.0 Started
+05/06/27 12:05:48 Started
+05/06/27 12:05:49 evssearch: JDevOJSP: init
+05/06/27 12:05:49 evssearch: action: init
+05/06/27 12:05:49 evssearch: 9.0.4.0.0 Started
+05/06/27 12:06:46 Started
+05/06/27 12:06:47 evssearch: JDevOJSP: init
+05/06/27 12:06:47 evssearch: action: init
+05/06/27 12:06:47 evssearch: 9.0.4.0.0 Started
+05/06/27 12:07:13 evssearch: com.evermind.server.http.NotFoundServlet: init
+05/06/27 12:08:22 Started
+05/06/27 12:08:23 evssearch: JDevOJSP: init
+05/06/27 12:08:23 evssearch: action: init
+05/06/27 12:08:23 evssearch: 9.0.4.0.0 Started
+05/06/27 12:10:14 Started
+05/06/27 12:10:15 evssearch: JDevOJSP: init
+05/06/27 12:10:15 evssearch: action: init
+05/06/27 12:10:15 evssearch: 9.0.4.0.0 Started
+05/06/27 12:11:27 Started
+05/06/27 12:11:28 evssearch: JDevOJSP: init
+05/06/27 12:11:28 evssearch: action: init
+05/06/27 12:11:28 evssearch: 9.0.4.0.0 Started
+05/06/27 12:12:58 Started
+05/06/27 12:12:59 evssearch: JDevOJSP: init
+05/06/27 12:12:59 evssearch: action: init
+05/06/27 12:12:59 evssearch: 9.0.4.0.0 Started
+05/06/27 12:14:03 Started
+05/06/27 12:14:04 evssearch: JDevOJSP: init
+05/06/27 12:14:04 evssearch: action: init
+05/06/27 12:14:04 evssearch: 9.0.4.0.0 Started
+05/06/27 12:14:42 Started
+05/06/27 12:14:43 evssearch: JDevOJSP: init
+05/06/27 12:14:43 evssearch: action: init
+05/06/27 12:14:43 evssearch: 9.0.4.0.0 Started
+05/06/27 12:17:23 Started
+05/06/27 12:17:24 evssearch: JDevOJSP: init
+05/06/27 12:17:24 evssearch: action: init
+05/06/27 12:17:24 evssearch: 9.0.4.0.0 Started
+05/06/27 12:29:31 Started
+05/06/27 12:29:33 evssearch: JDevOJSP: init
+05/06/27 12:29:33 evssearch: action: init
+05/06/27 12:29:33 evssearch: 9.0.4.0.0 Started
+05/06/27 12:30:44 Started
+05/06/27 12:30:45 evssearch: JDevOJSP: init
+05/06/27 12:30:45 evssearch: action: init
+05/06/27 12:30:45 evssearch: 9.0.4.0.0 Started
+05/06/27 13:25:46 evssearch: Connection reset by peer: socket write error
+05/06/27 13:25:46 evssearch: Connection reset by peer: socket write error
+05/06/27 13:25:46 evssearch: Connection reset by peer: socket write error
+05/06/27 13:25:46 evssearch: Connection reset by peer: socket write error
+05/06/27 13:30:41 Started
+05/06/27 13:30:42 evssearch: JDevOJSP: init
+05/06/27 13:30:42 evssearch: action: init
+05/06/27 13:30:42 evssearch: 9.0.4.0.0 Started
+05/06/27 13:34:14 Started
+05/06/27 13:34:15 evssearch: JDevOJSP: init
+05/06/27 13:34:15 evssearch: action: init
+05/06/27 13:34:15 evssearch: 9.0.4.0.0 Started
+05/06/27 13:35:21 Started
+05/06/27 13:35:22 evssearch: JDevOJSP: init
+05/06/27 13:35:22 evssearch: action: init
+05/06/27 13:35:22 evssearch: 9.0.4.0.0 Started
+05/06/27 13:39:25 Started
+05/06/27 13:39:26 evssearch: JDevOJSP: init
+05/06/27 13:39:26 evssearch: action: init
+05/06/27 13:39:27 evssearch: 9.0.4.0.0 Started
+05/06/27 13:41:20 Started
+05/06/27 13:41:21 evssearch: JDevOJSP: init
+05/06/27 13:41:21 evssearch: action: init
+05/06/27 13:41:22 evssearch: 9.0.4.0.0 Started
+05/06/27 13:43:05 Started
+05/06/27 13:43:06 evssearch: JDevOJSP: init
+05/06/27 13:43:06 evssearch: action: init
+05/06/27 13:43:06 evssearch: 9.0.4.0.0 Started
+05/06/28 10:48:57 Started
+05/06/28 10:48:59 evssearch: JDevOJSP: init
+05/06/28 10:48:59 evssearch: action: init
+05/06/28 10:48:59 evssearch: 9.0.4.0.0 Started
+05/06/28 11:12:27 evssearch: Connection reset by peer: socket write error
+05/06/28 11:12:27 evssearch: Connection reset by peer: socket write error
+05/06/28 11:12:27 evssearch: Connection reset by peer: socket write error
+05/06/28 11:12:27 evssearch: Connection reset by peer: socket write error
+05/06/29 09:05:03 Started
+05/06/29 09:05:04 Stopped (Critical error during startup)
+05/06/29 09:05:49 Started
+05/06/29 09:05:50 evssearch: JDevOJSP: init
+05/06/29 09:05:50 evssearch: action: init
+05/06/29 09:05:50 evssearch: 9.0.4.0.0 Started
+05/06/29 10:57:36 Started
+05/06/29 10:57:37 evssearch: JDevOJSP: init
+05/06/29 10:57:37 evssearch: action: init
+05/06/29 10:57:37 evssearch: 9.0.4.0.0 Started
+05/06/29 10:59:26 Started
+05/06/29 10:59:27 evssearch: JDevOJSP: init
+05/06/29 10:59:27 evssearch: action: init
+05/06/29 10:59:27 evssearch: 9.0.4.0.0 Started
+05/06/29 11:02:16 Started
+05/06/29 11:02:17 evssearch: JDevOJSP: init
+05/06/29 11:02:17 evssearch: action: init
+05/06/29 11:02:17 evssearch: 9.0.4.0.0 Started
+05/06/29 11:06:35 Started
+05/06/29 11:06:36 evssearch: JDevOJSP: init
+05/06/29 11:06:36 evssearch: action: init
+05/06/29 11:06:37 evssearch: 9.0.4.0.0 Started
+05/06/29 11:08:00 Started
+05/06/29 11:08:01 evssearch: JDevOJSP: init
+05/06/29 11:08:01 evssearch: action: init
+05/06/29 11:08:02 evssearch: 9.0.4.0.0 Started
+05/06/29 11:21:14 Started
+05/06/29 11:21:16 evssearch: JDevOJSP: init
+05/06/29 11:21:16 evssearch: action: init
+05/06/29 11:21:16 evssearch: 9.0.4.0.0 Started
+05/06/29 11:25:05 Started
+05/06/29 11:25:06 evssearch: JDevOJSP: init
+05/06/29 11:25:07 evssearch: action: init
+05/06/29 11:25:07 evssearch: 9.0.4.0.0 Started
+05/06/29 11:26:32 Started
+05/06/29 11:26:33 evssearch: JDevOJSP: init
+05/06/29 11:26:33 evssearch: action: init
+05/06/29 11:26:33 evssearch: 9.0.4.0.0 Started
+05/06/29 11:27:17 Started
+05/06/29 11:27:18 evssearch: JDevOJSP: init
+05/06/29 11:27:18 evssearch: action: init
+05/06/29 11:27:18 evssearch: 9.0.4.0.0 Started
+05/06/29 11:28:25 Started
+05/06/29 11:28:26 evssearch: JDevOJSP: init
+05/06/29 11:28:26 evssearch: action: init
+05/06/29 11:28:27 evssearch: 9.0.4.0.0 Started
+05/06/29 11:29:12 Started
+05/06/29 11:29:13 evssearch: JDevOJSP: init
+05/06/29 11:29:13 evssearch: action: init
+05/06/29 11:29:13 evssearch: 9.0.4.0.0 Started
+05/06/29 15:36:52 Started
+05/06/29 15:36:53 evssearch: JDevOJSP: init
+05/06/29 15:36:53 evssearch: action: init
+05/06/29 15:36:53 evssearch: 9.0.4.0.0 Started
