@@ -164,7 +164,7 @@
                               <Item path="../ViewController/src/gov/nih/nci/ncicb/cadsr/admintool/struts/action/"/>
                            </entries>
                         </additionalClassPath>
-                        <outputDirectory path="classes/"/>
+                        <outputDirectory path="../ViewController/src/gov/nih/nci/ncicb/cadsr/admintool/struts/action/"/>
                      </Value>
                   </Item>
                   <Item>

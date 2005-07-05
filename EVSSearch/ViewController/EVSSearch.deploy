@@ -18,12 +18,12 @@
    <appletLocation/>
    <archiveOptions>
       <additionalManifests/>
-      <compressed>false</compressed>
+      <compressed>true</compressed>
       <hasManifest>false</hasManifest>
       <mainClass/>
    </archiveOptions>
    <contextRoot/>
-   <defaultConnection/>
+   <defaultConnection class="java.lang.String"/>
    <deployClientMaxHeapSize/>
    <earURL path="deploy/EVSSearch.ear"/>
    <enterpriseAppName>EVSSearch</enterpriseAppName>
@@ -55,6 +55,12 @@
             <displayName>WEB-INF/classes</displayName>
             <filters>
                <rules>
+                  <Item type="1" pattern="gov/nih/nci/ncicb/cadsr/admintool/struts/action/FindConcept.java"/>
+                  <Item type="1" pattern="gov/nih/nci/ncicb/cadsr/admintool/struts/action/BaseDispatchAction.java"/>
+                  <Item type="1" pattern="gov/nih/nci/ncicb/cadsr/admintool/struts/action/BaseDispatchAction.class"/>
+                  <Item type="1" pattern="gov/nih/nci/ncicb/cadsr/admintool/struts/action/BaseAction.java"/>
+                  <Item type="1" pattern="gov/nih/nci/ncicb/cadsr/admintool/struts/action/BaseAction.class"/>
+                  <Item type="1" pattern="gov/nih/nci/ncicb/cadsr/service/"/>
                   <Item type="1" pattern="**/CVS/"/>
                   <Item type="1" pattern="**.cdi"/>
                   <Item type="1" pattern="**.contrib"/>
@@ -73,7 +79,7 @@
                   <Item type="0" pattern="**"/>
                </rules>
             </filters>
-            <selectedLibraries/>
+            <selectedLibraries class="[Ljava.lang.String;"/>
             <selectionMode>0</selectionMode>
             <targetWithinJar>WEB-INF/lib</targetWithinJar>
          </Item>

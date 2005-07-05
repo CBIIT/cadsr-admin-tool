@@ -42,7 +42,7 @@ public class EVSSearch
     String definition = "";
     List vCon = new ArrayList();
     List vMetaDefs = new ArrayList();
-  System.out.println(dtsVocab+"vocab");
+    
    if(dtsVocab.equals("Thesaurus/Metathesaurus") || dtsVocab.equals("") ||
     dtsVocab.equals("NCI Thesaurus") || dtsVocab.equals("NCI_Thesaurus"))
     {
@@ -102,6 +102,10 @@ public class EVSSearch
     
     ApplicationService evsService = ApplicationService.getRemoteInstance("http://cbioqatest501.nci.nih.gov:8080/cacore30/server/HTTPServer");
    // ApplicationService evsService = ApplicationService.getRemoteInstance( servletName.evsConnect);
+   if (evsService == null)
+    System.out.println("service not found");
+   System.out.println("Correct Code2");
+   
      if(sSearchInEVS.equals("Concept Code") && !term.equals("")
         && isMetaCodeSearch == false && !dtsVocab.equals("NCI Metathesaurus"))
      {   
@@ -236,7 +240,7 @@ public class EVSSearch
      }
      else if(!term.equals("") && isMetaCodeSearch == false && !dtsVocab.equals("NCI Metathesaurus")) // Synonym search
     {
-  
+     System.out.println("Search in synonym");
       try
       {
        if(retired.equals("Include") ) // do this if all concepts, including retired, should be included
@@ -250,6 +254,8 @@ public class EVSSearch
             {
            
               bool = evsService.evsSearch(query5);
+              if (bool != null)
+               System.out.println("bool returned");
               
             }
           catch(Exception ex)
@@ -267,12 +273,20 @@ public class EVSSearch
       
         try
         {
+         if(query != null) 
+         
           concepts = evsService.evsSearch(query);
+          if (concepts == null)
+            System.out.println("No concepts Returned");
+          else
+           System.out.println("Concepts returned");
         }
         catch(Exception ex)
         {
           System.out.println("Error do_EVSSearch: " + ex.toString());
         }
+        
+        System.out.println(concepts.size());
         if(concepts != null)
         {
           List bool2 = null;
@@ -285,6 +299,10 @@ public class EVSSearch
             try
             {
               bool2 = evsService.evsSearch(query5);
+               if (bool2 == null)
+                 System.out.println("No bool2 Returned");
+              else
+                  System.out.println("Bool2 returned");
             }
             catch(Exception ex)
             {
@@ -305,6 +323,10 @@ public class EVSSearch
                 try
                 {
                   concepts4 = evsService.evsSearch(query4);
+                  if (concepts == null)
+                 System.out.println("No concepts4 Returned");
+                   else
+                    System.out.println("Concepts4 returned");
                 }
                 catch(Exception ex)
                 {
@@ -331,6 +353,8 @@ public class EVSSearch
               {
                 System.out.println("Error do_EVSSearch: " + ex.toString());
               }
+              
+       
               if(concepts3 != null && concepts3.size()>0)
               {
                 String results = "";
@@ -346,6 +370,8 @@ public class EVSSearch
                   {
                     definition = results;
                   }
+                  
+                  System.out.println(definition+prefName + "definition");
                          EVSBean conBean = new EVSBean(CCode,prefName,definition,source, altNameType, dtsVocab);
                         vCon.add(conBean);    //add OC bean to vector
                 }
@@ -355,40 +381,8 @@ public class EVSSearch
                     EVSBean conBean = new EVSBean(CCode,prefName,"No value exists.", "", altNameType, dtsVocab);  
                               vCon.add(conBean);    //add bean to vector
               } 
-              // Header concepts have 'HD' in their Synonyms in Thesaurus. We do not want Headers as Parent Concepts
-              // for Referenced Value Domains
-              if(dtsVocab.length()>2 && dtsVocab.substring(0,3).equalsIgnoreCase("NCI") )
-              {
-                String synonym = "";
-                EVSQuery query4 = new EVSQueryImpl(); 
-                query4.getPropertyValues(dtsVocab, prefName, "FULL_SYN");
-                List concepts4 = null;
-                try
-                {
-                  concepts4 = evsService.evsSearch(query4);
-                }
-                catch(Exception ex)
-                {
-                  System.out.println("Error do_EVSSearch: " + ex.toString());
-                }
-                if(concepts4 != null && concepts4.size()>0)
-                {
-                  String results2 = "";
-                  for (int n = 0; n < concepts4.size(); n++)
-                  {
-                    results2 = concepts4.get(n).toString();
-                    if(dtsVocab.equals("NCI_Thesaurus"))
-                    {
-                    definition = getDefinition(results2);
-                    source = getSource(results2);
-                    synonym = results2;
-                    }
-                        EVSBean conBean = new EVSBean(CCode,prefName,definition,source, altNameType, dtsVocab);
-                       vCon.add(conBean);    //add OC bean to vector
-               
-                  } 
-                }
-              }
+              System.out.println("new Code");
+        
             }
           }
         }
@@ -422,7 +416,7 @@ public class EVSSearch
       }
       catch(Exception ex)
       {
-        System.out.println("Error do_EVSSearch Meta: " + ex.toString());
+        System.out.println("Error do_EVSSearch Meta: " +  ex.toString());
       }
 
       if(concepts != null)
@@ -460,8 +454,7 @@ public class EVSSearch
        }
      } 
      evsService = null;
-          System.out.println("test source");
-    // System.out.println(vCon.size());
+     System.out.println(vCon.size());    
    return vCon; 
   } 
 public static  String  getSource(String termStr) 

@@ -1,3 +1,4 @@
+<%@ taglib uri="/WEB-INF/struts-logic.tld" prefix="logic"%>
 <%@ taglib uri="/WEB-INF/struts-html.tld" prefix="html"%>
 <%@ taglib uri="/WEB-INF/struts-bean.tld" prefix="bean"%>
 <%@ page contentType="text/html;charset=windows-1252"%>
@@ -7,6 +8,7 @@
 <%@ page import="java.util.ArrayList" %>
 <jsp:useBean id="conceptList" class="gov.nih.nci.ncicb.cadsr.admintool.struts.action.FindConcepts" scope="page"/>
 <jsp:setProperty name="conceptList" property="*"/>
+
 
 <%  List c =  new ArrayList() ; %>
 <% c = conceptList.concept;%>
@@ -35,6 +37,7 @@ function closeOnClick() {
 </SCRIPT>
      </head>
   <body>
+  <a href="http://cbioqatest501.nci.nih.gov:8080/cacore30/server/HTTPServer">EVS</a>
     <form action = "findAction.do">
     
     <table>
@@ -68,11 +71,6 @@ function closeOnClick() {
         </select></td></tr>
       <tr>
       <td>
-        <bean:message key="EVSSearch.DefinitionSource"/>
-      </td>
-      <td><input type="text" name="definitionSource"/></td></tr>
-      <tr>
-      <td>
         <bean:message key="EVSSearch.Retired"/>
       </td>
       <td><bean:message key="EVSSearch.Yes"/><input type="radio" name="retired" value="Include" checked/>
@@ -81,7 +79,18 @@ function closeOnClick() {
       <input type="submit" value="Find"/>
       <input type="reset" value="Reset"/>
     </form>
-  
+   <% int csize = c.size();
+       int i = 0 ;%>
+      <% while (i < csize){     
+        EVSBean evsConcept = (EVSBean) c.get(i);
+        String jslink = "javascript:passback('"+  evsConcept.getCode()
+                                               +"','"+evsConcept.getName()
+                                               +"','"+evsConcept.getDefinition()
+                                               +"','"+evsConcept.getSource()
+                                               +"','"+evsConcept.getDictionary()
+                                               +"','"+evsConcept.getType()
+                                               +"')";
+                                               %>
     <table  cellspacing="2" cellpadding="3" border="1" width="100%">
 <tr>
     <td>
@@ -99,18 +108,7 @@ function closeOnClick() {
     <td>
       <bean:message key="EVSSearch.Dictionary"/>
     </td>
-    <% int csize = c.size();
-       int i = 0 ;%>
-      <% while (i < csize){     
-        EVSBean evsConcept = (EVSBean) c.get(i);
-        String jslink = "javascript:passback('"+  evsConcept.getCode()
-                                               +"','"+evsConcept.getName()
-                                               +"','"+evsConcept.getDefinition()
-                                               +"','"+evsConcept.getSource()
-                                               +"','"+evsConcept.getDictionary()
-                                               +"','"+evsConcept.getType()
-                                               +"')";
-                                               %>
+   
     <tr>  
     <td>
      <a href="<%=jslink%>" ><%=evsConcept.getName()%></a>

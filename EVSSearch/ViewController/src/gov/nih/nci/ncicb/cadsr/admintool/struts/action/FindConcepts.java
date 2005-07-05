@@ -31,10 +31,9 @@ public class FindConcepts extends Action
     DynaActionForm dynaForm = (DynaActionForm) form;
    
    String term = request.getParameter("term");
-   String dictionary = request.getParameter("dictionary");
    String searchIn = request.getParameter("searchIn");
    String retired = request.getParameter("retired");
-   String definitionSource = request.getParameter("definitionSource");
+   String dictionary = request.getParameter("dictionary");
    System.out.println(term);
     try{
  
@@ -43,9 +42,10 @@ public class FindConcepts extends Action
     
     return mapping.findForward("success"); }
     
-    catch (Exception ex){System.out.println("Error");
-    System.out.println(ex);
-    return mapping.findForward("faliure");}
+    catch (Exception ex){
+    System.out.println("Error");
+    ex.printStackTrace();
+    return mapping.findForward("failure");}
     
   }
   
