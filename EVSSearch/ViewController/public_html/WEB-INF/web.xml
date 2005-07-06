@@ -9,6 +9,10 @@
       <param-name>config</param-name>
       <param-value>/WEB-INF/struts-config.xml</param-value>
     </init-param>
+    <init-param>
+      <param-name>cacore-service-url</param-name>
+      <param-value>http://cabio.nci.nih.gov/cacore30/server/HTTPServer</param-value>
+    </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
