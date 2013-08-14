@@ -1,3 +1,10 @@
+<%--L
+  Copyright Oracle inc, SAIC-F
+
+  Distributed under the OSI-approved BSD 3-Clause License.
+  See http://ncip.github.com/cadsr-admin-tool/LICENSE.txt for details.
+L--%>
+
 <%@ taglib uri="/WEB-INF/struts-logic.tld" prefix="logic"%>
 <%@ taglib uri="/WEB-INF/struts-html.tld" prefix="html"%>
 <%@ taglib uri="/WEB-INF/struts-bean.tld" prefix="bean"%>
