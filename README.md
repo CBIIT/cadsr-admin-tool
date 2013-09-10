@@ -1,7 +1,7 @@
 Welcome to the caDSR Admin Tool Project!
 =====================================
 
-The caDSR Admin Tool allows users who have a caDSR account to create and manage Alert Definitions for content in the caDSR. Alert Definitions are a set of rules that are periodically evaluated against the caDSR.
+The caDSR Administration Tool (login required) is the main administrative interface to all of the basic editing and maintenance features and components
 
 The caDSR Admin Tool is distributed under the BSD 3-Clause License.
 Please see the NOTICE and LICENSE files for details.
