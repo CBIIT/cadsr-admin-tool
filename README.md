@@ -2,6 +2,8 @@ Welcome to the caDSR Admin Tool Project!
 =====================================
 
 The caDSR Administration Tool (login required) is the main administrative interface to all of the basic editing and maintenance features and components
+ 
+The caDSR Admin Tool is developed in Java and requires Apache Ant for building.
 
 The caDSR Admin Tool is distributed under the BSD 3-Clause License.
 Please see the NOTICE and LICENSE files for details.
