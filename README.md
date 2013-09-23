@@ -14,7 +14,7 @@ You will find more details about the caDSR Admin Tool in the following links:
  * [Community Wiki] (https://wiki.nci.nih.gov/x/PYEI)
  * [Code Repository] (https://github.com/NCIP/cadsr-admin-tool)
  * [Issue Tracker] (https://gforge.nci.nih.gov/tracker/?group_id=35)
- * [Downloads] (http://gforge.nci.nih.gov/frs/?group_id=35)
+ * [Installation Package] (http://gforge.nci.nih.gov/frs/?group_id=35)
  * [Documentation] (https://gforge.nci.nih.gov/docman/?group_id=35)
  
 
