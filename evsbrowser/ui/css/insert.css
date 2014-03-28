@@ -1,0 +1,39 @@
+ BODY 
+       {font-family: "comic sans ms", sans-serif;color:black;font-size: 8pt}   
+   H1  
+       { 
+        font-family: "comic sans ms", sans-serif; 
+          font-size: 12pt;
+              color: #666699 }
+   H2  
+       { font-family: "comic sans ms", sans-serif; 
+           font-size: 10pt;
+               color:#666699}
+   P   
+       {font-family: "comic sans ms", sans-serif; font-size: 8pt;color:black}  
+
+   IMG { vertical-align: middle; }
+
+   TD 
+      {font-family: "comic sans ms", sans-serif; 
+         font-size: 8pt;
+             color: black; }  
+table
+
+  {
+
+     border-collapse: collapse;
+
+  }
+
+ 
+
+ 
+
+   TH 
+      {font-family: "comic sans ms", sans-serif; color: black; font-size: 8pt}   
+   TR 
+      {font-family: "arial", sans-serif; color: black; font-size: 8pt }   
+
+   INPUT 
+      {font-family: "arial", sans-serif; color: black; font-size: 8pt }   
