@@ -42,22 +42,21 @@ function closeOnClick() {
     <table>
       <tr>      
        <td>
-         Term
+         <label for="findAction_Term">Term:</label>
        </td>
         <td>
         <s:textfield name="term"/>
         </td></tr>
         <tr>
       <td>
-        Search In
+      	<label for="findAction_searchIn">Search In:</label>
       </td>
         <td> <s:select size="1" name="searchIn" list="#{'Synonym':'Synonym', 'Concept Code/CUI':'Concept Code/CUI'}" value="Synonym"/>
       </td></tr>
-   
-        
         <tr>
           <td>
-            Set Meta Returns Limit:
+		<label for="findAction_mLimit">Set Meta Returns Limit:</label>
+
           </td>
           <td>
            <s:select size="1" name="mLimit" list="#{'100':'100', '250':'250', '500':'500', '750':'750'}" value="100"/>
