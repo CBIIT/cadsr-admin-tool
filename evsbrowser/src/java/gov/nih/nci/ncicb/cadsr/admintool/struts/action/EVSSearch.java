@@ -81,102 +81,102 @@ public class EVSSearch {
 	    algorithm = getAlgorithm(term);
 	    term = cleanTerm(term);
 		int totalReturnCount = 0;
+		ResolvedConceptReferenceList rcrl = null;
 
 		try {
 			if (retired.equals("Include")) // do this if all concepts, including retired, should be included
 				isRetired = new Boolean(false);
-			else {
-
-				try {
-
-					ResolvedConceptReferenceList rcrl = searchPrefTerm(evsService, dtsVocab, term, sMetaLimit, algorithm);
-					if (rcrl != null && rcrl.getResolvedConceptReferenceCount() >0)
-						isRetired = (Boolean) (!rcrl.getResolvedConceptReference(0).getEntity().isIsActive());
-
-				} catch (Exception ex) {
-					ex.printStackTrace();
-				}
-
-			}
-
-
-			if (isRetired.equals(bFalse)) {
-				ResolvedConceptReferenceList concepts = null;
-				//CCode = term;
-				int codesSize = 0;
-				try {
-					if (sSearchInEVS.equals("Concept Code") || matcher.matches())
-						concepts = searchConceptCode(evsService, dtsVocab, term, sMetaLimit);
-					else
-						concepts = searchPrefTerm(evsService, dtsVocab, term, sMetaLimit, algorithm);
-
-					codesSize = concepts.getResolvedConceptReferenceCount();
-
-				} catch (Exception ex) {
-					System.out.println("Error do_EVSSearch get concept: " +
-							ex.toString());
-				}
-
-				if (concepts != null && codesSize > 0) {
-
-					codeFoundInThesaurus = new Boolean(true);
-
-					prefName = concepts.getResolvedConceptReference(0).getEntityDescription().getContent();
-
-					concepts = new ResolvedConceptReferenceList();
-					try {
-						concepts = searchPrefTerm(evsService, dtsVocab, prefName, sMetaLimit, algorithm);
-						codesSize = concepts.getResolvedConceptReferenceCount();
-					} catch (Exception ex) {
-						//ex.printStackTrace();
-						System.out.println("Error do_EVSSearch DescLogic: " +
-								ex.toString());
-					}
-					if (concepts != null) {
-						ResolvedConceptReference rcr = new ResolvedConceptReference();
-						for (int i = 0; i < codesSize; i++) {
-							rcr = concepts.getResolvedConceptReference(i);
-							prefName = rcr.getEntityDescription().getContent();
-							CCode = rcr.getConceptCode();
-
-							Definition[] defs = rcr.getEntity().getDefinition();
-							if(defs == null)
-								defs = new Definition[0];
-							sDef = sDefDefault; // "No Value Exists.";
-							sDefSrc = "";
-
-							for(int k=0;k< defs.length;k++){
-
-								Definition def = defs[k];
-
-								if (def != null) {
-									if(def.getIsPreferred() != null){
-										sDef = def.getValue().getContent();
-										if (def.getSourceCount() > 0)
-											sDefSrc = def.getSource(0).getContent(); //get def source
+	
+					if (isRetired.equals(bFalse)) {
+						
+						ResolvedConceptReferenceList termconcepts = null;
+						//CCode = term;
+						int codesSize = 0;
+						try {
+							if (sSearchInEVS.equals("Concept Code") || matcher.matches())
+								termconcepts = searchConceptCode(evsService, dtsVocab, term, sMetaLimit);
+							else
+								termconcepts = searchPrefTerm(evsService, dtsVocab, term, sMetaLimit, algorithm);
+		
+							codesSize = termconcepts.getResolvedConceptReferenceCount();
+		
+						} catch (Exception ex) {
+							System.out.println("Error do_EVSSearch get concept: " +
+									ex.toString());
+						}
+						
+						List ccodes = new ArrayList();
+						if (termconcepts != null && codesSize > 0) {
+		
+							codeFoundInThesaurus = new Boolean(true);
+							int counter = termconcepts.getResolvedConceptReferenceCount();
+							ResolvedConceptReference[] refs = termconcepts.getResolvedConceptReference();
+							for(int i=0;i<counter;i++)
+							{
+								ResolvedConceptReferenceList perfNameConcepts = null;
+							prefName = refs[i].getEntityDescription().getContent();
+		
+							termconcepts = new ResolvedConceptReferenceList();
+							try {
+								perfNameConcepts = searchPrefTerm(evsService, dtsVocab, prefName, sMetaLimit, algorithm);
+								codesSize = perfNameConcepts.getResolvedConceptReferenceCount();
+							} catch (Exception ex) {
+								//ex.printStackTrace();
+								System.out.println("Error do_EVSSearch DescLogic: " +
+										ex.toString());
+							}
+							if (perfNameConcepts != null) {
+								ResolvedConceptReference rcr = new ResolvedConceptReference();
+								for (int j = 0; j < codesSize; j++) {
+									rcr = perfNameConcepts.getResolvedConceptReference(j);
+									if(!perfNameConcepts.getResolvedConceptReference(j).getEntity().isIsActive())
+										continue;
+									
+									prefName = rcr.getEntityDescription().getContent();
+									CCode = rcr.getConceptCode();
+		
+									Definition[] defs = rcr.getEntity().getDefinition();
+									if(defs == null)
+										defs = new Definition[0];
+									sDef = sDefDefault; // "No Value Exists.";
+									sDefSrc = "";
+		
+									for(int k=0;k< defs.length;k++){
+		
+										Definition def = defs[k];
+		
+										if (def != null) {
+											if(def.getIsPreferred() != null){
+												sDef = def.getValue().getContent();
+												if (def.getSourceCount() > 0)
+													sDefSrc = def.getSource(0).getContent(); //get def source
+											}
+		
+										}
 									}
-
+		
+									if(ccodes.contains(CCode))
+										continue;
+									
+									ccodes.add(CCode);
+									EVSBean conBean = new EVSBean();
+									conBean.setCode(CCode);
+									conBean.setDefinition(sDef);
+									conBean.setDictionary(dtsVocab);
+									conBean.setName(prefName);
+									conBean.setSource(sDefSrc);
+									conBean.setType(altNameType);
+									vCon.add(conBean);
+									totalReturnCount++;
+		
+									if(totalReturnCount >= sMetaLimit)
+										return vCon;
+		
 								}
 							}
-
-							EVSBean conBean = new EVSBean();
-							conBean.setCode(CCode);
-							conBean.setDefinition(sDef);
-							conBean.setDictionary(dtsVocab);
-							conBean.setName(prefName);
-							conBean.setSource(sDefSrc);
-							conBean.setType(altNameType);
-							vCon.add(conBean);
-							totalReturnCount++;
-
-							if(totalReturnCount >= sMetaLimit)
-								return vCon;
-
+							}
 						}
 					}
-				}
-			}
-
 		} catch (Exception ex) {
 			System.out.println("Error do_EVSSearch Concept code: " + ex.toString());
 		}
@@ -416,7 +416,7 @@ public class EVSSearch {
 
 			EVSSearch evsSearch = new EVSSearch();
 			List<EVSBean> concept =
-				(List<EVSBean>)evsSearch.searchEVS("gene*" +
+				(List<EVSBean>)evsSearch.searchEVS("Blood" +
 						"", "NCI_Thesaurus",
 						"Include", "" +
 						"Synonym",
