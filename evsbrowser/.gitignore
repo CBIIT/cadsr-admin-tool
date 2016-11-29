@@ -1,0 +1,6 @@
+bin/
+dist
+.settings/
+.metadata/
+build/
+WebContent/
