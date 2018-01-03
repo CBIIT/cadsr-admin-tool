@@ -232,7 +232,7 @@ public class EVSSearch {
 			}
 
 		evsService = null;
-		System.out.println(vCon.size());
+		System.out.println("Found concepts by term '" + term + "' : " + vCon.size());
 		return vCon;
 	}
 

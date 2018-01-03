@@ -9,11 +9,6 @@
   <property name="java.lib.dir" value="${basedir}/lib/" />
   <property name="java.src.dir" value="${basedir}/src/java" />
   <property name="war_name" value="evssearch" />
-  <property name="dev.cacoreserviceurl" value="http://cbvapp-q1003.nci.nih.gov:19080/evsapi" />
-  <property name="qa.cacoreserviceurl" value="http://cabio-qa.nci.nih.gov/cacore32/http/remoteService" />
-  <property name="stage.cacoreserviceurl" value="http://cabio-stage.nci.nih.gov/cacore32/http/remoteService" />
-  <property name="prod.cacoreserviceurl" value="http://cabio-int.nci.nih.gov/cacore32/http/remoteService" />
-  <property name="sandbox.cacoreserviceurl" value="http://cabio-sandbox.nci.nih.gov/cacore32/http/remoteService" />
   
   <path id="classpath">
     <fileset dir="${java.lib.dir}">
@@ -78,9 +73,6 @@
          </fileset>
        </copy>
        <copy todir="${webinf.build.dir}">
-          <filterset>
-              <filter token="cacoreserviceurl" value="${dev.cacoreserviceurl}"/>
-          </filterset>
           <fileset dir="${basedir}/config/WEB-INF" />
        </copy>
    </target>
@@ -100,9 +92,6 @@
          </fileset>
        </copy>
        <copy todir="${webinf.build.dir}">
-          <filterset>
-              <filter token="cacoreserviceurl" value="${qa.cacoreserviceurl}"/>
-          </filterset>
           <fileset dir="${basedir}/config/WEB-INF" />
        </copy>
    </target>   
@@ -122,9 +111,6 @@
          </fileset>
        </copy>
        <copy todir="${webinf.build.dir}">
-          <filterset>
-              <filter token="cacoreserviceurl" value="${stage.cacoreserviceurl}"/>
-          </filterset>
           <fileset dir="${basedir}/config/WEB-INF" />
        </copy>
    </target>    
@@ -144,9 +130,6 @@
          </fileset>
        </copy>
        <copy todir="${webinf.build.dir}">
-          <filterset>
-              <filter token="cacoreserviceurl" value="${prod.cacoreserviceurl}"/>
-          </filterset>
           <fileset dir="${basedir}/config/WEB-INF" />
        </copy>
    </target>    
@@ -166,9 +149,6 @@
          </fileset>
        </copy>
        <copy todir="${webinf.build.dir}">
-          <filterset>
-              <filter token="cacoreserviceurl" value="${sandbox.cacoreserviceurl}"/>
-          </filterset>
           <fileset dir="${basedir}/config/WEB-INF" />
        </copy>
    </target>     
