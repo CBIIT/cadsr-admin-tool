@@ -99,8 +99,6 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/commons-fileupload-1.3.2.jar"/>
-	<classpathentry kind="lib" path="lib/freemarker-2.3.22.jar"/>
 	<classpathentry kind="lib" path="lib/lexevsapi65-beans.jar"/>
 	<classpathentry kind="lib" path="lib/lexevsapi65-framework.jar"/>
 	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
@@ -108,9 +106,11 @@
 	<classpathentry kind="lib" path="lib/asm-commons-3.3.jar"/>
 	<classpathentry kind="lib" path="lib/asm-tree-3.3.jar"/>
 	<classpathentry kind="lib" path="lib/ognl-3.0.21.jar"/>
-	<classpathentry kind="lib" path="lib/struts2-core-2.3.34.jar"/>
-	<classpathentry kind="lib" path="lib/struts2-dojo-plugin-2.3.34.jar"/>
-	<classpathentry kind="lib" path="lib/xwork-core-2.3.34.jar"/>
 	<classpathentry kind="lib" path="lib/commons-lang3-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-fileupload-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker-2.3.28.jar"/>
+	<classpathentry kind="lib" path="lib/struts2-core-2.3.37.jar"/>
+	<classpathentry kind="lib" path="lib/struts2-dojo-plugin-2.3.37.jar"/>
+	<classpathentry kind="lib" path="lib/xwork-core-2.3.35.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
