@@ -14,6 +14,11 @@ WORKDIR /tmp
 RUN wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.11/bin/apache-tomcat-9.0.11.tar.gz \
     && tar xvfz apache-tomcat-9.0.11.tar.gz \
     && mv apache-tomcat-9.0.11 /usr/local/apache-tomcat
+
+#add group and user tomcats
+RUN sudo groupadd -r tomcata && sudo useradd -r -g tomcata -d /usr/local/apache-tomcat -s /sbin/nologin tomcata
+RUN sudo chown -RH tomcata: /usr/local/apache-tomcat
+
 RUN wget https://archive.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz \
     && tar xvfz apache-maven-3.5.4-bin.tar.gz \
     && mv apache-maven-3.5.4 /opt \
@@ -30,11 +35,9 @@ RUN chmod 755 /usr/local/apache-tomcat/bin/*.sh
 # copy entrypoint to /usr/bin and chown to tomcata #
 COPY run.sh /usr/bin/run.sh
 
-#add group and user tomcats
-RUN sudo groupadd -r tomcata && sudo useradd -r -g tomcata -d /opt/tomcata -s /sbin/nologin tomcata
-
 # make directory for pulling code from github and change owner to tomcata #
 RUN mkdir /usr/src/evssearch && chown -RH tomcata: /usr/src/evssearch
+RUN chown tomcata /usr/bin/run.sh && chmod 700 /usr/bin/run.sh
 RUN chown tomcata /usr/bin/run.sh && chmod 700 /usr/bin/run.sh
 
 # change user to tomcata #
