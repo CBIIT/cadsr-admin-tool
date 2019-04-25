@@ -33,4 +33,4 @@ while [ ! -d "/usr/local/apache-tomcat/logs" ]
   sleep 1
 done
 echo "changing permissions on apache-tomcat log directory"
-chmod 755 -R /usr/local/apache-tomcat/log
+chmod 755 -R /usr/local/apache-tomcat/logs
