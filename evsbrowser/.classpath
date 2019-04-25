@@ -111,6 +111,6 @@
 	<classpathentry kind="lib" path="lib/freemarker-2.3.28.jar"/>
 	<classpathentry kind="lib" path="lib/struts2-core-2.3.37.jar"/>
 	<classpathentry kind="lib" path="lib/struts2-dojo-plugin-2.3.37.jar"/>
-	<classpathentry kind="lib" path="lib/xwork-core-2.3.35.jar"/>
+	<classpathentry kind="lib" path="lib/xwork-core-2.3.37.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
