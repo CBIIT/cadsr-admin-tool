@@ -27,13 +27,16 @@ ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 
 RUN chmod 755 /usr/local/apache-tomcat/bin/*.sh
 
-# copy entrypoint to /usr/bin and chown to wildfly #
+# copy entrypoint to /usr/bin and chown to tomcata #
 COPY run.sh /usr/bin/run.sh
 
-# make directory for pulling code from github and change owner to wildfly #
+#add group and user tomcats
+RUN sudo groupadd -r tomcata && sudo useradd -r -g tomcata -d /opt/tomcata -s /sbin/nologin tomcata
+
+# make directory for pulling code from github and change owner to tomcata #
 RUN mkdir /usr/src/evssearch && chown -RH tomcata: /usr/src/evssearch
 
-# change user to wildfly #
+# change user to tomcata #
 USER tomcata
 
 # change to source code workdir #
