@@ -23,14 +23,5 @@ echo "done building cchecker-gateway"
 
 echo "entering apache-tomcat directory"
 cd /usr/local/apache-tomcat
-echo "starting tomcat"
-./bin/catalina.sh run &
-echo "done starting tomcat"
-
-while [ ! -d "/usr/local/apache-tomcat/logs" ]
-  do
-  echo "Waiting for tomcat to start"
-  sleep 1
-done
-echo "changing permissions on apache-tomcat log directory"
-chmod 755 -R /usr/local/apache-tomcat/logs
+echo "starting tomcat in foreground"
+./bin/catalina.sh run
