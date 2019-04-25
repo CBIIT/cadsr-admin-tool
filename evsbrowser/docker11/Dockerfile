@@ -35,6 +35,7 @@ RUN sudo groupadd -r tomcata && sudo useradd -r -g tomcata -d /opt/tomcata -s /s
 
 # make directory for pulling code from github and change owner to tomcata #
 RUN mkdir /usr/src/evssearch && chown -RH tomcata: /usr/src/evssearch
+RUN chown tomcata /usr/bin/run.sh && chmod 700 /usr/bin/run.sh
 
 # change user to tomcata #
 USER tomcata
